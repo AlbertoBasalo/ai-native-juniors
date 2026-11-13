@@ -1,35 +1,20 @@
-# Instrucións para Codex
+# Instrucciones para agentes
 
-## Obxectivo
-Preparar unha charla universitaria en Slidev a partir do PPTX orixinal «A.I. native juniors», dirixida ao profesorado da Universidade de Vigo.
+Presentación en Slidev «A.I. native juniors», dirigida al profesorado de la ESEI de Ourense
 
-## Fonte de verdade
-- `slides.md` é a fonte editable principal.
-- O PPTX orixinal é material de referencia, non autoriza inventar datos nin conclusións.
-- Manter a orde narrativa inicial salvo que o usuario solicite unha reestruturación.
+## Contenido y edición
+- `slides.md` es la fuente editable; los PPTX exportados son entregables, no la fuente de verdad.
+- Escribir en español (con algún guiño en gallego), conservando nombres oficiales y tecnicismos habituales en inglés.
+- Mantener el orden y el contenido del usuario salvo petición expresa de cambio.
+- Una idea por diapositiva, con frases breves y revelaciones mediante `v-click`, `<v-click>` o `<v-clicks>`.
+- Incluir solo contenido final: sin comentarios, notas del presentador ni instrucciones provisionales.
+- No inventar cifras, citas ni referencias. Distinguir hechos, opiniones y previsiones.
+- Mantener el HTML bien indentado y los cambios limitados a la tarea solicitada.
 
-## Regras de contido
-- Redactar principalmente en galego normativo, mantendo tecnicismos en inglés cando sexan habituais.
-- Unha idea principal por diapositiva; priorizar preguntas e frases curtas.
-- Usar `<v-click>` e `<v-clicks>` para revelar contidos progresivamente.
-- Evitar parágrafos na pantalla: desenvolver as explicacións nas notas do presentador (`<!-- ... -->`).
-- Distinguir feitos documentados de previsións e opinións.
-- Non inventar cifras, citas nin referencias académicas.
-
-## Regras visuais
-- O estilo definitivo debe inspirarse no CSS real de albertobasalo.dev.
-- Personalizar en `styles/index.css`, usando variables CSS.
-- Non introducir dependencias decorativas sen necesidade.
-- Contraste alto, letra grande, presentación 16:9 apta para proxector.
-
-## Fluxo de traballo
-1. Propoñer un pequeno cambio e explicar a súa intención.
-2. Editar `slides.md` ou os estilos, mantendo o resto estable.
-3. Comprobar que Slidev compila e que non hai desbordamentos visuais.
-4. Exportar un PPTX con todos os pasos por clic para Google Slides.
-5. Verificar manualmente o resultado importado a Google Slides.
-
-## Criterios de aceptación
-- O proxecto arranca con `npm install` e `npm run dev`.
-- As revelacións funcionen ao avanzar.
-- O arquivo exportado á universidade funcione sen instalar Slidev.
+## Estilo y comprobación
+- Conservar el diseño actual en `styles/index.css`, con variables CSS, alto contraste y texto legible en formato 16:9.
+- No añadir dependencias decorativas innecesarias.
+- Para cambios de contenido o estilos, ejecutar `npm run build` y revisar las diapositivas afectadas y sus revelaciones en el navegador.
+- Para trabajar en local: `npm install` y `npm run dev`.
+- Cuando se solicite un entregable, exportar con `npm run export:pptx -- --with-clicks` o `npm run export:pdf`.
+- Verificar la importación en Google Slides cuando se disponga de acceso; si no, indicar que esa comprobación queda pendiente.
