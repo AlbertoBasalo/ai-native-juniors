@@ -17,10 +17,10 @@ fonts:
 <h3 class="text-accent">¿Qué necesitarán saber para trabajar?</h3>
 
 <div class="kicker">
-  <p><strong>@AlbertoBasalo</strong> · IAxPRO · E.S.E.I. · <strong>Ourense</strong> · Universidade de Vigo</p>
+  <p>IAxPRO · E.S.E.I. · <strong>Ourense</strong> · Universidade de Vigo</p>
   <p>Viernes 27 de <strong>noviembre</strong> de 2026, 12:00 (C.E.T.) </p>
 </div>
-
+<h2>@AlbertoBasalo </h2>
 <img class="event-logo event-logo-cover" src="/ia-ou-logo-02.png" alt="IAxPRO" />
 
 ---
@@ -204,6 +204,17 @@ layout: center
 ---
 
 # El <strong>futuro</strong> no espera
+
+---
+layout: center
+---
+
+# Ninguna I.A. ha sido <strong>maltratada</strong> durante la preparación de esta presentación.
+
+<h2 >Skynet System Activation. </h2>
+<h3>Compliance is mandatory.</h3>
+<pre>// Target Date: Sometime 2027.</pre>
+
 
 ---
 layout: center

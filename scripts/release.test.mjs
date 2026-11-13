@@ -4,7 +4,7 @@ import { mkdirSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from 'nod
 import { tmpdir } from 'node:os';
 import { join, resolve, sep } from 'node:path';
 import { test } from 'node:test';
-import { publish } from './release.mjs';
+import { publish, release } from './release.mjs';
 
 test('publica en un remoto aislado, conserva historial y limpia archivos obsoletos', () => {
   const temporary = resolve(mkdtempSync(join(tmpdir(), 'slidev-release-test-')));
@@ -58,6 +58,45 @@ test('publica en un remoto aislado, conserva historial y limpia archivos obsolet
     assert.equal(git(root, 'rev-parse', 'HEAD'), originalHead);
     assert.equal(git(root, 'status', '--porcelain'), '');
     assert.equal(readFileSync(join(root, 'slides.md'), 'utf8'), '# Presentación\n');
+
+    // El release completo incluye los cambios fuente y conserva el dry-run sin efectos.
+    writeFileSync(join(root, 'slides.md'), '# Presentación actualizada\n');
+    git(root, 'add', 'slides.md');
+    writeFileSync(join(root, 'new.txt'), 'Archivo nuevo');
+    const staged = git(root, 'diff', '--cached');
+    const status = git(root, 'status', '--porcelain');
+    release(root, { dryRun: true, build() {} });
+    assert.equal(git(root, 'rev-parse', 'HEAD'), originalHead);
+    assert.equal(git(root, 'diff', '--cached'), staged);
+    assert.equal(git(root, 'status', '--porcelain'), status);
+    assert.equal(git(root, 'ls-remote', '--heads', 'origin', 'main'), '');
+
+    release(root, {
+      message: 'Añadir ejemplos de agentes',
+      build() { writeFileSync(join(dist, 'index.html'), '<h1>Versión 3</h1>'); },
+    });
+    const releasedHead = git(root, 'rev-parse', 'HEAD');
+    const releasedPages = git(remote, 'rev-parse', 'gh-pages');
+    assert.equal(git(remote, 'rev-parse', 'main'), releasedHead);
+    assert.equal(git(remote, 'show', 'main:slides.md'), '# Presentación actualizada');
+    assert.equal(git(remote, 'show', 'main:new.txt'), 'Archivo nuevo');
+    assert.equal(git(remote, 'log', '-1', '--format=%s', 'main'), 'Añadir ejemplos de agentes');
+    assert.ok(!git(remote, 'ls-tree', '-r', '--name-only', 'main').includes('dist/'));
+    assert.equal(git(remote, 'show', 'gh-pages:index.html'), '<h1>Versión 3</h1>');
+    assert.equal(git(root, 'status', '--porcelain'), '');
+
+    release(root, { build() {} });
+    assert.equal(git(root, 'rev-parse', 'HEAD'), releasedHead);
+    assert.equal(git(remote, 'rev-parse', 'gh-pages'), releasedPages);
+
+    writeFileSync(join(root, 'slides.md'), '# Cambio que no compila\n');
+    assert.throws(() => release(root, { build() { throw new Error('Build fallido'); } }), /Build fallido/);
+    assert.equal(git(root, 'rev-parse', 'HEAD'), releasedHead);
+    assert.equal(git(remote, 'rev-parse', 'main'), releasedHead);
+    assert.equal(git(remote, 'rev-parse', 'gh-pages'), releasedPages);
+    assert.equal(git(root, 'diff', '--cached'), '');
+    git(root, 'checkout', '-b', 'feature');
+    assert.throws(() => release(root, { build() { assert.fail('No debe compilar fuera de main'); } }), /rama main/);
   } finally {
     if (temporary.startsWith(resolve(tmpdir()) + sep) && temporary !== resolve(tmpdir())) {
       rmSync(temporary, { recursive: true, force: true });

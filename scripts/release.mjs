@@ -64,14 +64,7 @@ export function publish(root, { dryRun = false } = {}) {
   }
 }
 
-function main() {
-  const args = process.argv.slice(2);
-  if (args.some(arg => arg !== '--dry-run')) throw new Error('Uso: npm run release -- [--dry-run]');
-  const dryRun = args.includes('--dry-run');
-  const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
-  if (!dryRun && run('git', ['status', '--porcelain'], root).output) {
-    throw new Error('Guarda los cambios en un commit antes del release. Para comprobarlo sin publicar: npm run release -- --dry-run');
-  }
+function buildPresentation(root) {
   const { repository } = JSON.parse(readFileSync(join(root, 'package.json'), 'utf8'));
   const repositoryName = new URL(repository.url).pathname.split('/').filter(Boolean).at(-1).replace(/\.git$/, '');
   const base = repositoryName.endsWith('.github.io') ? '/' : `/${repositoryName}/`;
@@ -79,7 +72,42 @@ function main() {
   const result = spawnSync(process.execPath, [join(root, 'node_modules/@slidev/cli/bin/slidev.mjs'), 'build', 'slides.md', '--base', base], { cwd: root, stdio: 'inherit' });
   if (result.error) throw result.error;
   if (result.status !== 0) throw new Error('La compilación ha fallado. No se publica.');
+}
+
+export function release(root, { dryRun = false, message = 'Actualizar presentación', build = buildPresentation } = {}) {
+  const git = (...args) => run('git', args, root).output;
+  if (git('branch', '--show-current') !== 'main') {
+    throw new Error('Ejecuta el release desde la rama main.');
+  }
+  if (!message.trim()) throw new Error('El mensaje del commit no puede estar vacío.');
+
+  // Verificar la compilación antes de crear commits o enviar cambios.
+  build(root);
+  if (!dryRun) {
+    git('add', '--all');
+    if (run('git', ['diff', '--cached', '--quiet'], root, [0, 1]).status !== 0) {
+      git('commit', '-m', message);
+      console.log('Cambios fuente guardados en un commit.');
+    }
+    git('push', 'origin', 'HEAD:refs/heads/main');
+    console.log('Fuentes enviadas a main.');
+  }
   publish(root, { dryRun });
+}
+
+function main() {
+  const args = process.argv.slice(2);
+  const options = {};
+  for (let index = 0; index < args.length; index++) {
+    if (args[index] === '--dry-run') options.dryRun = true;
+    else if (['-m', '--message'].includes(args[index]) && args[index + 1] && !args[index + 1].startsWith('-')) {
+      options.message = args[++index];
+    } else {
+      throw new Error('Uso: npm run release -- [--dry-run] [-m "Mensaje del commit"]');
+    }
+  }
+  const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
+  release(root, options);
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(resolve(process.argv[1])).href) {

@@ -17,6 +17,41 @@ npm run export:pptx
 npm run export:pdf
 ```
 
+## Publicación en GitHub Pages
+
+Desde la rama `main`, ejecuta:
+
+```bash
+npm run release
+```
+
+El comando comprueba la compilación local con la ruta de GitHub Pages, añade todos
+los cambios no ignorados y crea un commit en `main` si hay cambios pendientes.
+Después sube `main` a `origin` y envía la compilación a `gh-pages`, conservando su historial.
+No cambia la rama de trabajo ni utiliza force push. Si falla la compilación, no crea
+commits ni envía cambios. Si falla el push de `main`, no publica en `gh-pages`.
+La Action publica esa compilación; los pushes a `main` ya no publican la presentación.
+Requiere Git con identidad y acceso de escritura a `origin`.
+
+El mensaje predeterminado es «Actualizar presentación». Puedes personalizarlo:
+
+```bash
+npm run release -- -m "Añadir ejemplos de agentes"
+```
+
+Para comprobar la compilación sin modificar el índice ni crear commits en `main`:
+
+```bash
+npm run release -- --dry-run
+```
+
+Este modo permite cambios sin commit y consulta el remoto, pero no publica.
+Solo prepara un commit de prueba en un repositorio temporal, que se elimina al terminar.
+
+El propio comando sube también el script y el workflow en el primer release.
+En **Settings → Pages**, mantén **Source: GitHub Actions**. Si el entorno
+`github-pages` limita las ramas autorizadas, permite también `gh-pages`.
+El workflow también permite volver a desplegar `gh-pages` desde **Run workflow**.
 
 ## Archivos
 - `slides.md`:contenido de la presentación en formato Markdown.
