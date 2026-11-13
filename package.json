@@ -1,0 +1,19 @@
+{
+  "name": "ai-native-juniors-slidev",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "slidev slides.md --open",
+    "build": "slidev build slides.md",
+    "export:pptx": "slidev export slides.md --format pptx --output ai-native-juniors.pptx",
+    "export:pdf": "slidev export slides.md --format pdf --with-clicks --output ai-native-juniors.pdf"
+  },
+  "devDependencies": {
+    "@slidev/cli": "^53.1.0",
+    "playwright-chromium": "^1.65.0"
+  },
+  "dependencies": {
+    "@slidev/theme-default": "^0.25.0"
+  }
+}
