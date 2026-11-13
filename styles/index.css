@@ -1,4 +1,4 @@
-/* Colores y fuentes del tema oscuro de https://albertobasalo.dev/. */
+/* Temas inspirados en https://albertobasalo.dev/, con fondo claro blanco. */
 @font-face {
   font-family: 'Roboto';
   src: url('../public/fonts/roboto-latin.woff2') format('woff2');
@@ -14,14 +14,28 @@
   font-display: swap;
 }
 :root {
+  color-scheme: light;
+  --ab-background: #ffffff;
+  --ab-text: #111827;
+  --ab-heading: #111827;
+  --ab-muted: #596579;
+  --ab-accent: #2563eb;
+  --ab-emphasis: #15803d;
+  --ab-process-fill: #e8edf5;
+  --ab-code-ink: #ffffff;
+  --ab-font: 'Roboto', Arial, sans-serif;
+  --ab-heading-font: 'Audiowide', 'Roboto', sans-serif;
+}
+:root.dark {
+  color-scheme: dark;
   --ab-background: #040711;
   --ab-text: #b8c4d8;
   --ab-heading: #f0f1f3;
   --ab-muted: #a4acba;
   --ab-accent: #60a5fa;
   --ab-emphasis: #22c55e;
-  --ab-font: 'Roboto', Arial, sans-serif;
-  --ab-heading-font: 'Audiowide', 'Roboto', sans-serif;
+  --ab-process-fill: #111a31;
+  --ab-code-ink: #040711;
 }
 .slidev-layout {
   background: var(--ab-background);
@@ -57,13 +71,14 @@
 .event-logo {
   display: block;
   height: auto;
-  filter: drop-shadow(0 0 1px var(--ab-heading));
+  background: #ffffff;
+  padding: .4rem .65rem;
+  border-radius: .25rem;
 }
 .event-logo-cover { width: 11rem; margin-top: 1.5rem; }
 .event-logo-closing { width: 14rem; margin: 1.5rem auto 0; }
 
 /* Comparación cualitativa editable, sin escala temporal. */
-:root { --ab-process-fill: #111a31; --ab-code-ink: #040711; }
 .coding-time-chart { margin-top: 1.8rem; }
 .coding-time-row { margin-bottom: 1.1rem; }
 .coding-time-label { font-size: 1.25rem; margin-bottom: .35rem; font-weight: 600; }

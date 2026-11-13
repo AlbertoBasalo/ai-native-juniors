@@ -1,5 +1,6 @@
 ---
 theme: default
+colorSchema: auto
 title: A.I. native juniors
 author: Alberto Basalo
 info: |
@@ -21,7 +22,7 @@ fonts:
   <p>Viernes 27 de <strong>noviembre</strong> de 2026, 12:00 (C.E.T.) </p>
 </div>
 <h2>@AlbertoBasalo </h2>
-<img class="event-logo event-logo-cover" src="/ia-ou-logo-02.png" alt="IAxPRO" />
+<img class="event-logo event-logo-cover" src="/ia-ou-logo-02.jpg" alt="IAxPRO" />
 
 ---
 layout: center
@@ -234,4 +235,4 @@ layout: center
 
 <h2 v-click>@AlbertoBasalo <strong>grazas!</strong></h2>
 
-<img class="event-logo event-logo-closing" src="/ia-ou-logo-02.png" alt="IAxPRO" />
+<img class="event-logo event-logo-closing" src="/ia-ou-logo-02.jpg" alt="IAxPRO" />
