@@ -1,0 +1,1 @@
+var e=`/ai-native-juniors/ia-ou-logo-02.jpg`;export{e as t};
