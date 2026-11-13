@@ -41,6 +41,8 @@ layout: center
   <p v-click>Consultoría y formación a <strong>medio IBEX 35</strong>.</p>
 </div>
 
+<h2 v-click>Sinto que volvo á casa.</h2>
+
 ---
 layout: center
 ---
