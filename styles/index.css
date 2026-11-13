@@ -54,6 +54,14 @@
 .kicker { color: var(--ab-muted); font-size: 1.15rem; margin-top: 2rem; }
 .statement { color: var(--ab-accent); font-size: 1.8rem; margin-top: 2rem; }
 
+.event-logo {
+  display: block;
+  height: auto;
+  filter: drop-shadow(0 0 1px var(--ab-heading));
+}
+.event-logo-cover { width: 11rem; margin-top: 1.5rem; }
+.event-logo-closing { width: 14rem; margin: 1.5rem auto 0; }
+
 /* Comparación cualitativa editable, sin escala temporal. */
 :root { --ab-process-fill: #111a31; --ab-code-ink: #040711; }
 .coding-time-chart { margin-top: 1.8rem; }

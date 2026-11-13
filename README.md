@@ -29,3 +29,9 @@ npm run export:pdf
 **Courses in Spanish** · [A.I. Code Academy](https://aicode.academy)  
 **Repository** · [GitHub / AIDDbot](https://github.com/AlbertoBasalo/ai-native-juniors)  
 **Website** · [aiddbot.com](https://aiddbot.com)
+
+---
+
+[![IAxPRO](public/ia-ou-logo-02.png)](public/ia-ou-logo-02.png)
+
+

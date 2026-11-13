@@ -6,8 +6,10 @@ info: |
   Conversación con profesorado sobre el futuro de la formación en programación.
 transition: fade
 fonts:
-  sans: 'Arial'
+  sans: 'Roboto'
   mono: 'Consolas'
+  custom: 'Audiowide'
+  local: ['Roboto', 'Audiowide', 'Consolas']
 ---
 
 # A.I. native <strong>juniors</strong>
@@ -15,9 +17,11 @@ fonts:
 <h3 class="text-accent">¿Qué necesitarán saber para trabajar?</h3>
 
 <div class="kicker">
-  <p><strong>@AlbertoBasalo</strong> · IAxPRO · ESEI · <strong>Ourense</strong> · Universidade de Vigo</p>
+  <p><strong>@AlbertoBasalo</strong> · IAxPRO · E.S.E.I. · <strong>Ourense</strong> · Universidade de Vigo</p>
   <p>Viernes 27 de <strong>noviembre</strong> de 2026, 12:00 (C.E.T.) </p>
 </div>
+
+<img class="event-logo event-logo-cover" src="/ia-ou-logo-02.png" alt="IAxPRO" />
 
 ---
 layout: center
@@ -29,8 +33,10 @@ layout: center
 
 <div class="bio-story">
   <p v-click><strong>Ourense</strong>, años 80.</p>
-  <p v-click>Mi primer MSX y <strong>BASIC</strong>.</p>
+  <pre v-click>Mi primer MSX y <strong>BASIC</strong>.</pre>
   <p v-click>Informática en la universidad de <strong>A Coruña</strong>.</p>
+</div>
+<div class="bio-story">
   <p v-click>He trabajado para <strong>Gadis, Inditex y Tous</strong>.</p>
   <p v-click>Consultoría y formación a <strong>medio IBEX 35</strong>.</p>
 </div>
@@ -58,7 +64,7 @@ layout: center
 - El lenguaje <strong>Pascal</strong>
 - La metodología <strong>Warnier</strong>
 - Recorrer <strong>árboles de nodos</strong>
-- Y, sobre todo, <strong>¡álgebra relacional!</strong>
+- Y, lo más útil, <strong>¡álgebra relacional!</strong>
 
 </v-clicks>
 
@@ -106,7 +112,7 @@ layout: center
 
 # Los años <strong>veinte</strong>, la década prodigiosa
 
-<h2 v-click class="coding-time-subtitle">La irrupción de la IA en el desarrollo</h2>
+<h2 v-click class="coding-time-subtitle">La irrupción de la I.A. en el desarrollo</h2>
 
 <p v-click class="coding-time-question">¿Qué cambia cuando automatizamos la codificación?</p>
 
@@ -114,7 +120,7 @@ layout: center
 layout: center
 ---
 
-# De completar <strong>código</strong> a delegar la <strong>programación</strong>
+# De completar <strong>código</strong> a delegar <strong>procesos</strong>
 
 <div class="ai-timeline" aria-label="Hitos seleccionados de programación con IA entre 2021 y 2026, no a escala">
   <div v-click>
@@ -138,7 +144,7 @@ layout: center
     <div class="ai-timeline-detail">Away from keyboard</div>
   </div>
   <div v-click>
-    <div class="ai-timeline-date">Along 27</div>
+    <div class="ai-timeline-date">Sometime 27</div>
     <div class="ai-timeline-event">Something</div>
     <div class="ai-timeline-detail">Singularity</div>
   </div>
@@ -179,36 +185,40 @@ layout: center
 layout: center
 ---
 
-# Volver a los fundamentos
+# Volver a los <strong>fundamentos</strong>
 
 ---
 layout: center
 ---
 
-# El código es un proxy
+# El código es un <strong>proxy</strong>
 
 ---
 layout: center
 ---
 
-# Jevons
+# La paradoja de <strong>Jevons</strong>
 
 ---
 layout: center
 ---
 
-# Conclusión
+# El <strong>futuro</strong> no espera
 
 ---
 layout: center
 ---
 
-# Non é maxIA.
+# Non é <strong>maxIA</strong>
 
 <h2 v-click>É tecnoloxía.</h2>
 
-<div class="kicker"><strong>@AlbertoBasalo</strong></div>
+<div>
+  <p>#IAxPRO · #ESEI · <strong>#Ourense</strong> · #UniversidaDeVigo</p>
+  <p>Grupo de Innovación Docente <strong>IAxPRO</strong> (IA xeradora en PROgramación)</p>
+  <p><strong>ESEI</strong> Campus Ourense Universidade de Vigo</p>
+</div>
 
-<div>#IAxPRO · #ESEI · <strong>#Ourense</strong> · #UniversidaDeVigo</div>
-<div>Grupo de Innovación Docente <strong>IAxPRO</strong> (IA xeradora en PROgramación)</div>
-<div><strong>ESEI</strong> Campus Ourense Universidade de Vigo</div>
+<h2 v-click>@AlbertoBasalo <strong>grazas!</strong></h2>
+
+<img class="event-logo event-logo-closing" src="/ia-ou-logo-02.png" alt="IAxPRO" />
