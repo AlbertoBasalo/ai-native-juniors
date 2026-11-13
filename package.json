@@ -1,5 +1,11 @@
 {
   "name": "ai-native-juniors-slidev",
+  "description": "Presentación formando juniors en tiempos de IA",
+  "author": {
+    "name": "Alberto Basalo",
+    "email": "albertobasalo@aicode.academy",
+    "url": "https://aicode.academy"
+  },
   "private": true,
   "version": "0.1.0",
   "type": "module",

@@ -1,9 +1,0 @@
-Lee `AGENTS.md` y `slides.md`.
-
-Vamos a desarrollar esta presentación para profesorado universitario sobre el futuro de los programadores júnior en la era de la IA.
-
-Antes de modificar nada, analiza la estructura narrativa actual y propón mejoras en el hilo argumental.
-
-Mantén el gallego como idioma principal, una idea por diapositiva y las apariciones progresivas de Slidev.
-
-No implementes los cambios todavía. Quiero discutir primero la narrativa y las conclusiones.
