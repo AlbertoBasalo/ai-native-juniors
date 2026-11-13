@@ -6,6 +6,9 @@
     "email": "albertobasalo@aicode.academy",
     "url": "https://aicode.academy"
   },
+  "repository": {
+    "url": "https://github.com/AlbertoBasalo/ai-native-juniors"
+  },
   "private": true,
   "version": "0.1.0",
   "type": "module",

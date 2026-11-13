@@ -22,3 +22,10 @@ npm run export:pdf
 - `slides.md`:contenido de la presentación en formato Markdown.
 - `styles/index.css`: tema provisional. **Fuentes, colores y logotipos pendientes**.
 - `AGENTS.md`: normas de colaboración con agentes.
+
+---
+
+**Author** · [Alberto Basalo](https://albertobasalo.dev) · [X-Twitter](https://x.com/albertobasalo) · [LinkedIn](https://www.linkedin.com/in/albertobasalo/)  
+**Courses in Spanish** · [A.I. Code Academy](https://aicode.academy)  
+**Repository** · [GitHub / AIDDbot](https://github.com/AlbertoBasalo/ai-native-juniors)  
+**Website** · [aiddbot.com](https://aiddbot.com)
