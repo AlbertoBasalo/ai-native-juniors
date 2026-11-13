@@ -1,12 +1,27 @@
-/* Tema provisional inspirado na estética minimalista de albertobasalo.dev.
-   IMPORTANTE: cores e fontes non verificadas contra o CSS real do sitio.
-   Axustar estas variables tras inspeccionar os estilos oficiais. */
+/* Colores y fuentes del tema oscuro de https://albertobasalo.dev/. */
+@font-face {
+  font-family: 'Roboto';
+  src: url('../public/fonts/roboto-latin.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Audiowide';
+  src: url('../public/fonts/audiowide-latin.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
 :root {
-  --ab-background: #101317;
-  --ab-text: #f5f5f4;
-  --ab-muted: #a3a3a3;
-  --ab-accent: #a7d0ff;
-  --ab-font: Arial, Helvetica, sans-serif;
+  --ab-background: #040711;
+  --ab-text: #b8c4d8;
+  --ab-heading: #f0f1f3;
+  --ab-muted: #a4acba;
+  --ab-accent: #60a5fa;
+  --ab-emphasis: #22c55e;
+  --ab-font: 'Roboto', Arial, sans-serif;
+  --ab-heading-font: 'Audiowide', 'Roboto', sans-serif;
 }
 .slidev-layout {
   background: var(--ab-background);
@@ -15,27 +30,32 @@
   padding: 3.5rem 4rem;
 }
 .slidev-layout h1 {
-  font-size: 3.35rem;
-  font-weight: 750;
+  color: var(--ab-heading);
+  font-family: var(--ab-heading-font);
+  font-size: 2.9rem;
+  font-weight: 400;
   letter-spacing: -.035em;
   line-height: 1.1;
   max-width: 92%;
   margin-bottom: 1.2rem;
 }
 .slidev-layout h2 {
+  font-family: var(--ab-heading-font);
   font-size: 2.4rem;
-  font-weight: 650;
+  font-weight: 400;
   letter-spacing: -.02em;
   color: var(--ab-accent);
 }
 .slidev-layout h3 { font-size: 1.5rem; font-weight: 500; }
 .slidev-layout li { font-size: 1.65rem; line-height: 1.45; margin: 1.1rem 0; }
-.slidev-layout strong { color: var(--ab-accent); }
+.slidev-layout .text-accent { color: var(--ab-accent); }
+.slidev-layout strong { color: var(--ab-emphasis); }
+.slidev-layout :is(h1, h2) strong { font-weight: inherit; }
 .kicker { color: var(--ab-muted); font-size: 1.15rem; margin-top: 2rem; }
 .statement { color: var(--ab-accent); font-size: 1.8rem; margin-top: 2rem; }
 
 /* Comparación cualitativa editable, sin escala temporal. */
-:root { --ab-process-fill: #293440; --ab-code-ink: #101317; }
+:root { --ab-process-fill: #111a31; --ab-code-ink: #040711; }
 .coding-time-chart { margin-top: 1.8rem; }
 .coding-time-row { margin-bottom: 1.1rem; }
 .coding-time-label { font-size: 1.25rem; margin-bottom: .35rem; font-weight: 600; }

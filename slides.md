@@ -10,12 +10,13 @@ fonts:
   mono: 'Consolas'
 ---
 
-# A.I. native juniors
+# A.I. native <strong>juniors</strong>
 
-### ¿Qué necesitan saber cuando la IA ya programa?
+<h3 class="text-accent">¿Qué necesitarán saber para trabajar?</h3>
 
 <div class="kicker">
-  <strong>@AlbertoBasalo</strong> · IAxPRO · ESEI · Ourense · Universidade de Vigo
+  <p><strong>@AlbertoBasalo</strong> · IAxPRO · ESEI · <strong>Ourense</strong> · Universidade de Vigo</p>
+  <p>Viernes 27 de <strong>noviembre</strong> de 2026, 12:00 (C.E.T.) </p>
 </div>
 
 ---
@@ -24,7 +25,7 @@ layout: center
 
 # Alberto Basalo
 
-<div class="kicker">Programador · Consultor · <strong>Formador</strong></div>
+<div class="kicker text-accent">Programador · Consultor · <strong>Formador</strong></div>
 
 <div class="bio-story">
   <p v-click><strong>Ourense</strong>, años 80.</p>
