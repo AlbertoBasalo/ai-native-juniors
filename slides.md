@@ -4,7 +4,7 @@ colorSchema: auto
 title: A.I. native juniors
 author: Alberto Basalo
 info: |
-  Conversación con profesorado sobre el futuro de la formación en programación.
+  Charla coloquio sobre el futuro de la formación en programación, con Alberto Basalo en la ESEI de Ourense.
 transition: fade
 fonts:
   sans: 'Roboto'
@@ -34,12 +34,12 @@ layout: center
 
 <div class="bio-story">
   <p v-click><strong>Ourense</strong>, años 80</p>
-  <pre v-click>Mi primer MSX y <strong>BASIC</strong></pre>
+  <pre v-click>Mi primer ordenador <strong>MSX</strong> y lenguaje <strong>BASIC</strong></pre>
   <p v-click>Informática en la universidad de <strong>A Coruña</strong></p>
 </div>
 <div class="bio-story">
   <p v-click>He trabajado para <strong>Gadis, Inditex y Tous</strong></p>
-  <p v-click>Fundé Ágora Binaria una software factory <strong>Junior friendly</strong></p>
+  <p v-click>Fundé <strong>Ágora Binaria</strong> una software factory <em>junior friendly</em></p>
   <p v-click>Consultoría y formación a <strong>medio IBEX 35</strong></p>
 </div>
 
@@ -50,7 +50,7 @@ layout: center
 layout: center
 ---
 
-# ¿Qué <strong>trabajo</strong> le encargarán a un júnior dentro de tres años?
+# ¿Qué <strong>trabajo</strong> le encargarán a un júnior en unos años?
 
 ---
 layout: center
@@ -160,6 +160,37 @@ layout: center
 layout: center
 ---
 
+# La paradoja de <strong>Jevons</strong>
+
+<cite>¿Tiene sentido aprender a programar en 2027?</cite>
+<p v-click>La <strong>necesidad</strong> de software es ilimitada</p>
+<p v-click>Su desarrollo requiere <strong>atención y dedicación</strong></p>
+
+<h2 class="coding-time-subtitle">El foco persigue al valor</h2>
+
+---
+layout: center
+---
+
+# ¿Qué se le <strong>encarga</strong> a un junior?
+
+<div class="junior-matrix" role="figure" aria-label="Dificultad e importancia, con valores baja y alta en cada eje.">
+  <span class="junior-matrix-y-title">Importancia</span>
+  <span class="junior-matrix-y-high">Alta</span>
+  <span class="junior-matrix-y-low">Baja</span>
+  <span class="junior-matrix-x-low">Baja</span>
+  <span class="junior-matrix-x-high">Alta</span>
+  <span class="junior-matrix-x-title">Dificultad</span>
+  <div v-click class="junior-matrix-point">
+    <span class="junior-matrix-dot" aria-hidden="true"></span>
+    <h2>Júnior</h2>
+  </div>
+</div>
+
+---
+layout: center
+---
+
 # El <strong>ciclo de vida</strong> del desarrollo con <strong>I.A.</strong>
 
 
@@ -188,25 +219,62 @@ layout: center
 layout: center
 ---
 
+# El código es un <strong>proxy</strong> 
+
+<v-clicks>
+<p v-click> <strong>(siempre lo fue)</strong></p>
+<p v-click> <strong>¿Qué hace?</strong>: análisis y diseño.</p>
+<p v-click><strong>¿Cómo lo hace?</strong>: arquitectura de software.</p>
+<p v-click><strong>¿Lo hace?</strong>: calidad y pruebas.</p>
+
+</v-clicks>
+
+<h2 class="coding-time-subtitle">Lo que lo envuelve es lo importante.</h2>
+
+---
+layout: center
+---
+
 # Volver a los <strong>fundamentos</strong>
 
+<v-clicks>
+
+- <strong>Especificar problemas</strong>: qué se espera y qué no.
+- <strong>Algoritmos + estructuras de datos</strong>: el Sr. Wirth tenía razón.
+- <strong>Abstracción y detalle</strong>: descomponer, definir contratos e implementar.
+- <strong>Sistemas y servicios</strong>: dónde y cómo se ejecuta el software.
+- <strong>Verificar la solución</strong>: confía pero comprueba.
+
+</v-clicks>
+
+<h2 class="coding-time-subtitle">Empezar a mano, revisar con disciplina.</h2>
+
 ---
 layout: center
 ---
 
-# El código es un <strong>proxy</strong>
+# El peligro de la <strong>dopamina</strong> 
 
----
-layout: center
----
+<cite>Programar-depurar sigue el mismo circuito <strong>deseo, acción, recompensa</strong> que la caza-recolección.</cite>
+<h2 v-click> Con la IA, el ciclo se alarga y desvanece</h2>
 
-# La paradoja de <strong>Jevons</strong>
+<v-clicks>
+<li>Los impacientes se frustrarán.</li>
+<li>Los ambiciosos se dispersarán.</li>
+</v-clicks>
 
 ---
 layout: center
 ---
 
 # El <strong>futuro</strong> no espera
+
+<cite>¿Tiene límite el avance del a IA?</cite>
+<p v-click>La <strong>energía</strong> no es ilimitada</p>
+<p v-click>El <strong>colapso del modelo</strong> endogámico</p>
+<p v-click>Su aplicación peligrosa debe ser <strong>regulada</strong></p>
+
+<h2 class="coding-time-subtitle">El momento inercial es imparable</h2>
 
 ---
 layout: center
