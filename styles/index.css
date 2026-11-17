@@ -45,6 +45,8 @@
   font-family: var(--ab-font);
   padding: 3.5rem 4rem;
 }
+/* Mismo ancho en todas las diapositivas centradas. */
+.slidev-layout.center { grid-template-columns: minmax(0, 1fr); }
 .slidev-layout h1 {
   color: var(--ab-heading);
   font-family: var(--ab-heading-font);
