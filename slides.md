@@ -160,55 +160,6 @@ layout: center
 layout: center
 ---
 
-# La paradoja de <strong>Jevons</strong>
-
-<cite>¿Tiene sentido aprender a programar en 2027?</cite>
-<p v-click>La <strong>necesidad</strong> de software es ilimitada</p>
-<p v-click>Su desarrollo requiere <strong>atención y dedicación</strong></p>
-
-<h2 class="coding-time-subtitle">El foco persigue al valor</h2>
-
----
-layout: center
----
-
-# ¿Qué se le <strong>encarga</strong> a un junior?
-
-<div class="junior-matrix" role="figure" aria-label="Dificultad e importancia, con valores baja y alta en cada eje.">
-  <span class="junior-matrix-y-title">Importancia</span>
-  <span class="junior-matrix-y-high">Alta</span>
-  <span class="junior-matrix-y-low">Baja</span>
-  <span class="junior-matrix-x-low">Baja</span>
-  <span class="junior-matrix-x-high">Alta</span>
-  <span class="junior-matrix-x-title">Dificultad</span>
-  <div v-click class="junior-matrix-point">
-    <span class="junior-matrix-dot" aria-hidden="true"></span>
-    <h2>Júnior</h2>
-  </div>
-</div>
-
-<p v-click>Si la IA automatiza esas tareas, ¿dónde empieza el aprendizaje profesional?</p>
-
----
-layout: center
----
-
-# El código es un <strong>proxy</strong>
-
-<v-clicks>
-<p v-click> <strong>(siempre lo fue)</strong></p>
-<p v-click> <strong>¿Qué hace?</strong>: análisis y diseño.</p>
-<p v-click><strong>¿Cómo lo hace?</strong>: arquitectura de software.</p>
-<p v-click><strong>¿Lo hace?</strong>: calidad y pruebas.</p>
-
-</v-clicks>
-
-<h2 class="coding-time-subtitle">Lo que lo envuelve es lo importante.</h2>
-
----
-layout: center
----
-
 # El <strong>ciclo de vida</strong> del desarrollo con <strong>I.A.</strong>
 
 
@@ -237,6 +188,57 @@ layout: center
 layout: center
 ---
 
+# La paradoja de <strong>Jevons</strong>
+
+<cite>¿Tiene sentido aprender a programar en 2027?</cite>
+<p v-click>La <strong>necesidad</strong> de software es ilimitada</p>
+<p v-click>El <strong>abaratamiento</strong> abre nuevos usos</p>
+<p v-click>Su desarrollo requiere <strong>atención y dedicación</strong></p>
+
+<h2 class="coding-time-subtitle">El foco persigue al valor</h2>
+
+---
+layout: center
+---
+
+# ¿Qué se le <strong>encarga</strong> a un junior?
+
+<div class="junior-matrix" role="figure" aria-label="Dificultad e importancia, con valores baja y alta en cada eje.">
+  <span class="junior-matrix-y-title">Importancia</span>
+  <span class="junior-matrix-y-high">Alta</span>
+  <span class="junior-matrix-y-low">Baja</span>
+  <span class="junior-matrix-x-low">Baja</span>
+  <span class="junior-matrix-x-high">Alta</span>
+  <span class="junior-matrix-x-title">Dificultad</span>
+  <div v-click class="junior-matrix-point">
+    <span class="junior-matrix-dot" aria-hidden="true"></span>
+    <h2>Júnior</h2>
+  </div>
+</div>
+
+<p v-click>Si la IA hace esas tareas, ¿qué demonios hace el junior?</p>
+<h2 v-click class="coding-time-subtitle">Olvídalo, la IA lo automatiza todo</h2>
+
+---
+layout: center
+---
+
+# El código es un <strong>proxy</strong>
+
+
+<p v-click> <strong>(siempre lo fue)</strong></p>
+<p v-click> <strong>¿Qué hace?</strong>: análisis y diseño.</p>
+<p v-click><strong>¿Cómo lo hace?</strong>: arquitectura de software.</p>
+<p v-click><strong>¿Lo hace?</strong>: calidad y pruebas.</p>
+
+
+
+<h2 class="coding-time-subtitle">Lo que lo envuelve es lo importante.</h2>
+
+---
+layout: center
+---
+
 # Volver a los <strong>fundamentos</strong>
 
 <v-clicks>
@@ -250,6 +252,110 @@ layout: center
 </v-clicks>
 
 <h2 class="coding-time-subtitle">Empezar a mano, revisar con disciplina.</h2>
+
+---
+layout: center
+---
+
+# Un poco de  <strong>subjetividad</strong>
+
+<h2 class="coding-time-subtitle">¿Cómo somos los programadores?</h2>
+
+---
+layout: center
+---
+
+# La programación siempre <strong>evoluciona</strong>
+
+<table class="programming-history">
+  <thead>
+    <tr>
+      <th>Década</th>
+      <th>Cantidad de programadores</th>
+      <th>Nivel intelectual</th>
+      <th>Abstracción / ejemplos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr v-click>
+      <td>1940</td>
+      <td>10</td>
+      <td><em>Alan Turing</em></td>
+      <td>Código máquina</td>
+    </tr>
+    <tr v-click>
+      <td>1950</td>
+      <td>100</td>
+      <td><em>Grace Hopper</em></td>
+      <td>Ensamblador / FORTRAN</td>
+    </tr>
+    <tr v-click>
+      <td>1960</td>
+      <td>1.000</td>
+      <td><em>Margaret Hamilton</em></td>
+      <td>Alto nivel / COBOL, BASIC</td>
+    </tr>
+    <tr v-click>
+      <td>1970</td>
+      <td>10.000</td>
+      <td><em>Denis Ritchie</em></td>
+      <td>Sistemas y consultas / C, SQL</td>
+    </tr>
+    <tr v-click>
+      <td>1980</td>
+      <td>100.000</td>
+      <td>Frikies de la ciencia</td>
+      <td>Objetos / C++</td>
+    </tr>
+    <tr v-click>
+      <td>1990</td>
+      <td>1.000.000</td>
+      <td>Entusiastas caseros</td>
+      <td>Máquinas virtuales / Java</td>
+    </tr>
+    <tr v-click>
+      <td>2000</td>
+      <td>OK boomer</td>
+      <td>Lo pillo</td>
+      <td>Frameworks y servicios / Ruby</td>
+    </tr>
+    <tr v-click>
+      <td>2010</td>
+      <td>-</td>
+      <td>—</td>
+      <td>Plataformas y cloud / Python</td>
+    </tr>
+    <tr v-click>
+      <td>2020</td>
+      <td>Everybody</td>
+      <td>Cualquiera</td>
+      <td>No code / Markdown</td>
+    </tr>
+  </tbody>
+</table>
+
+<p class="programming-history-caption">Basado en las ideas de Uncle Bob y su libro "We, programers".</p>
+
+<style scoped>
+.programming-history {
+  font-size: 1rem;
+  line-height: 1.2;
+}
+
+.programming-history th,
+.programming-history td {
+  padding: .4rem .6rem;
+}
+
+.programming-history th {
+  font-weight: 700;
+}
+
+.programming-history-caption {
+  color: var(--ab-muted);
+  font-size: .9rem;
+}
+</style>
 
 ---
 layout: center
