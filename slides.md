@@ -187,6 +187,24 @@ layout: center
   </div>
 </div>
 
+<p v-click>Si la IA automatiza esas tareas, ¿dónde empieza el aprendizaje profesional?</p>
+
+---
+layout: center
+---
+
+# El código es un <strong>proxy</strong>
+
+<v-clicks>
+<p v-click> <strong>(siempre lo fue)</strong></p>
+<p v-click> <strong>¿Qué hace?</strong>: análisis y diseño.</p>
+<p v-click><strong>¿Cómo lo hace?</strong>: arquitectura de software.</p>
+<p v-click><strong>¿Lo hace?</strong>: calidad y pruebas.</p>
+
+</v-clicks>
+
+<h2 class="coding-time-subtitle">Lo que lo envuelve es lo importante.</h2>
+
 ---
 layout: center
 ---
@@ -214,22 +232,6 @@ layout: center
 <h2 v-click class="coding-time-subtitle">¿Cómo debería cambiar el reparto de la formación?</h2>
 
 <cite>¿Dónde se va el tiempo? </cite>
-
----
-layout: center
----
-
-# El código es un <strong>proxy</strong> 
-
-<v-clicks>
-<p v-click> <strong>(siempre lo fue)</strong></p>
-<p v-click> <strong>¿Qué hace?</strong>: análisis y diseño.</p>
-<p v-click><strong>¿Cómo lo hace?</strong>: arquitectura de software.</p>
-<p v-click><strong>¿Lo hace?</strong>: calidad y pruebas.</p>
-
-</v-clicks>
-
-<h2 class="coding-time-subtitle">Lo que lo envuelve es lo importante.</h2>
 
 ---
 layout: center
