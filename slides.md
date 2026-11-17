@@ -33,22 +33,24 @@ layout: center
 <div class="kicker text-accent">Programador · Consultor · <strong>Formador</strong></div>
 
 <div class="bio-story">
-  <p v-click><strong>Ourense</strong>, años 80.</p>
-  <pre v-click>Mi primer MSX y <strong>BASIC</strong>.</pre>
-  <p v-click>Informática en la universidad de <strong>A Coruña</strong>.</p>
+  <p v-click><strong>Ourense</strong>, años 80</p>
+  <pre v-click>Mi primer MSX y <strong>BASIC</strong></pre>
+  <p v-click>Informática en la universidad de <strong>A Coruña</strong></p>
 </div>
 <div class="bio-story">
-  <p v-click>He trabajado para <strong>Gadis, Inditex y Tous</strong>.</p>
-  <p v-click>Consultoría y formación a <strong>medio IBEX 35</strong>.</p>
+  <p v-click>He trabajado para <strong>Gadis, Inditex y Tous</strong></p>
+  <p v-click>Fundé Ágora Binaria una software factory <strong>Junior friendly</strong></p>
+  <p v-click>Consultoría y formación a <strong>medio IBEX 35</strong></p>
 </div>
 
-<h2 v-click>Sinto que volvo á casa.</h2>
+<h2 v-click>Hoxe sinto que volvo á casa.</h2>
+<cite v-click>Para plantear un par de preguntas inimaginables cuando salí de aquí...</cite>
 
 ---
 layout: center
 ---
 
-# ¿Qué trabajo le encargarán a un <strong>júnior</strong> dentro de tres años?
+# ¿Qué <strong>trabajo</strong> le encargarán a un júnior dentro de tres años?
 
 ---
 layout: center
@@ -107,7 +109,7 @@ layout: center
   </div>
 </div>
 
-<div class="coding-time-caption">Desde el waterfall al agile. Todo lo que inicia tiene un final.</div>
+<cite>Desde el waterfall al agile. Todo lo que inicia tiene un final.</cite>
 
 ---
 layout: center
@@ -115,9 +117,8 @@ layout: center
 
 # Los años <strong>veinte</strong>, la década prodigiosa
 
-<h2 v-click class="coding-time-subtitle">La irrupción de la I.A. en el desarrollo</h2>
+<h2 v-click class="coding-time-subtitle">¿Qué cambia cuando automatizamos la codificación?</h2>
 
-<p v-click class="coding-time-question">¿Qué cambia cuando automatizamos la codificación?</p>
 
 ---
 layout: center
@@ -153,7 +154,7 @@ layout: center
   </div>
 </div>
 
-<div class="coding-time-caption">Hitos de la I.A. para desarrolladores. Sin escala temporal.</div>
+<cite>Hitos de la I.A. para desarrolladores. Sin escala temporal.</cite>
 
 ---
 layout: center
@@ -166,7 +167,6 @@ layout: center
   <div v-click class="coding-time-row">
     <div class="coding-time-label">
       La dedicación humana a la codificación se reduce.
-      <span class="coding-time-hypothesis">¿Donde se va el tiempo?</span>
     </div>
     <div class="coding-time-bar coding-time-future">
       <span>Análisis</span>
@@ -182,7 +182,7 @@ layout: center
 <p v-click class="coding-time-question">Si cambia el reparto de trabajo...</p>
 <h2 v-click class="coding-time-subtitle">¿Cómo debería cambiar el reparto de la formación?</h2>
 
-<div class="coding-time-caption">Reparto relativo ilustrativo. </div>
+<cite>¿Dónde se va el tiempo? </cite>
 
 ---
 layout: center
