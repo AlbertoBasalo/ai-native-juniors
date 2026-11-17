@@ -28,28 +28,6 @@ fonts:
 layout: center
 ---
 
-# Alberto Basalo
-
-<div class="kicker text-accent">Programador · Consultor · <strong>Formador</strong></div>
-
-<div class="bio-story">
-  <p v-click><strong>Ourense</strong>, años 80</p>
-  <pre v-click>Mi primer ordenador <strong>MSX</strong> y lenguaje <strong>BASIC</strong></pre>
-  <p v-click>Informática en la universidad de <strong>A Coruña</strong></p>
-</div>
-<div class="bio-story">
-  <p v-click>He trabajado para <strong>Gadis, Inditex y Tous</strong></p>
-  <p v-click>Fundé <strong>Ágora Binaria</strong> una software factory <em>junior friendly</em></p>
-  <p v-click>Consultoría y formación a <strong>medio IBEX 35</strong></p>
-</div>
-
-<h2 v-click>Hoxe sinto que volvo á casa.</h2>
-<cite v-click>Para plantear un par de preguntas inimaginables cuando salí de aquí...</cite>
-
----
-layout: center
----
-
 # ¿Qué <strong>trabajo</strong> le encargarán a un júnior en unos años?
 
 ---
@@ -57,6 +35,27 @@ layout: center
 ---
 
 # ¿Qué necesitará <strong>saber</strong> para progresar en su trabajo?
+
+---
+layout: center
+---
+
+# Alberto Basalo
+
+<div class="kicker text-accent">Programador · Consultor · <strong>Formador</strong></div>
+
+<div class="bio-story">
+  <p v-click><strong>Ourense</strong>, años 80</p>
+  <pre v-click>Mi primer ordenador <strong>MSX</strong> y lenguaje <strong>BASIC</strong></pre>
+</div>
+<div v-click class="bio-story">
+  <p>He trabajado para <strong>Gadis, Inditex y Tous</strong></p>
+  <p>Fundé <strong>Ágora Binaria</strong> una software factory <em>junior friendly</em></p>
+  <p>Consultoría y formación a <strong>medio IBEX 35</strong></p>
+</div>
+
+<h2 v-click>Hoxe sinto que volvo á casa.</h2>
+<cite v-click>Para hablar de cosas inimaginables cuando salí de aquí...</cite>
 
 ---
 layout: center
@@ -191,9 +190,9 @@ layout: center
 # La paradoja de <strong>Jevons</strong>
 
 <cite>¿Tiene sentido aprender a programar en 2027?</cite>
-<p v-click>La <strong>necesidad</strong> de software es ilimitada</p>
-<p v-click>El <strong>abaratamiento</strong> abre nuevos usos</p>
-<p v-click>Su desarrollo requiere <strong>atención y dedicación</strong></p>
+<h3 v-click>La <strong>necesidad</strong> de software es ilimitada</h3>
+<h3 v-click>El <strong>abaratamiento</strong> abre nuevos usos</h3>
+<h3 v-click>Su desarrollo requiere <strong>atención y dedicación</strong></h3>
 
 <h2 class="coding-time-subtitle">El foco persigue al valor</h2>
 
@@ -216,7 +215,7 @@ layout: center
   </div>
 </div>
 
-<p v-click>Si la IA hace esas tareas, ¿qué demonios hace el junior?</p>
+<h3 v-click>Si la IA hace esas tareas, ¿qué demonios hace el junior?</h3>
 <h2 v-click class="coding-time-subtitle">Olvídalo, la IA lo automatiza todo</h2>
 
 ---
@@ -226,12 +225,10 @@ layout: center
 # El código es un <strong>proxy</strong>
 
 
-<p v-click> <strong>(siempre lo fue)</strong></p>
-<p v-click> <strong>¿Qué hace?</strong>: análisis y diseño.</p>
-<p v-click><strong>¿Cómo lo hace?</strong>: arquitectura de software.</p>
-<p v-click><strong>¿Lo hace?</strong>: calidad y pruebas.</p>
-
-
+<cite v-click> <strong>(siempre lo fue)</strong></cite>
+<h3 v-click> <strong>¿Qué hace?</strong>: análisis y diseño.</h3>
+<h3 v-click><strong>¿Cómo lo hace?</strong>: arquitectura de software.</h3>
+<h3 v-click><strong>¿Lo hace?</strong>: calidad y pruebas.</h3>
 
 <h2 class="coding-time-subtitle">Lo que lo envuelve es lo importante.</h2>
 
@@ -241,17 +238,37 @@ layout: center
 
 # Volver a los <strong>fundamentos</strong>
 
+<div class="fundamentals">
+
 <v-clicks>
 
-- <strong>Especificar problemas</strong>: qué se espera y qué no.
-- <strong>Algoritmos + estructuras de datos</strong>: el Sr. Wirth tenía razón.
-- <strong>Abstracción y detalle</strong>: descomponer, definir contratos e implementar.
-- <strong>Sistemas y servicios</strong>: dónde y cómo se ejecuta el software.
-- <strong>Verificar la solución</strong>: confía pero comprueba.
+- <strong>¿Qué hace?</strong> Especificar problemas
+  - Qué se espera y qué no.
+- <strong>¿Cómo lo hace?</strong> Diseñar soluciones
+  - Algoritmos + estructuras de datos: el Sr. Wirth tenía razón.
+  - Abstracción y detalle: descomponer, definir contratos e implementar.
+  - Sistemas y servicios: dónde y cómo se ejecuta el software.
+- <strong>¿Lo hace?</strong> Verificar la solución
+  - Confía pero comprueba.
 
 </v-clicks>
 
+</div>
+
 <h2 class="coding-time-subtitle">Empezar a mano, revisar con disciplina.</h2>
+
+<style scoped>
+.fundamentals > ul > li {
+  margin: .8rem 0;
+}
+
+.fundamentals li li {
+  color: var(--ab-muted);
+  font-size: 1.15rem;
+  line-height: 1.3;
+  margin: .2rem 0;
+}
+</style>
 
 ---
 layout: center
@@ -334,7 +351,7 @@ layout: center
   </tbody>
 </table>
 
-<p class="programming-history-caption">Basado en las ideas de Uncle Bob y su libro "We, programers".</p>
+<cite>Basado en las ideas de Uncle Bob y su libro <strong>We, programers</strong>.</cite>
 
 <style scoped>
 .programming-history {
@@ -378,11 +395,41 @@ layout: center
 # El <strong>futuro</strong> no espera
 
 <cite>¿Tiene límite el avance del a IA?</cite>
-<p v-click>La <strong>energía</strong> no es ilimitada</p>
-<p v-click>El <strong>colapso del modelo</strong> endogámico</p>
-<p v-click>Su aplicación peligrosa debe ser <strong>regulada</strong></p>
+- La <strong>energía</strong> no es ilimitada
+- El <strong>colapso del modelo</strong> endogámico
+- Su aplicación peligrosa debe ser <strong>regulada</strong>
 
 <h2 class="coding-time-subtitle">El momento inercial es imparable</h2>
+
+---
+layout: center
+---
+
+# Volvamos a las <strong>preguntas</strong>
+
+- <strong>¿Qué trabajo?</strong> Menos codificar, más especificar y verificar.
+- <strong>¿Qué saber?</strong> Los fundamentos: cómo lo hace.
+- <strong>¿Por qué?</strong> La demanda de software crece y el foco persigue al valor.
+
+<h2 v-click class="coding-time-subtitle">Lo que envuelve al código es lo importante.</h2>
+
+---
+layout: center
+---
+
+# ¿Y ahora <strong>cómo</strong> enseñamos?
+
+<cite>Tres propuestas para el debate.</cite>
+
+<v-clicks>
+
+- <strong>Empezar a mano</strong>: fundamentos primero, I.A. después.
+- <strong>Diseñar con diagramas</strong>: maximiza señal/ruido.
+- <strong>Apertura y comunicación</strong>: habilidades socio-lingüísticas.
+
+</v-clicks>
+
+<h2 v-click class="coding-time-subtitle">¿Abrimos el coloquio?</h2>
 
 ---
 layout: center
