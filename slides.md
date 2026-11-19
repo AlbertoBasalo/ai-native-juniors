@@ -15,7 +15,7 @@ fonts:
 
 # A.I. native <strong>juniors</strong>
 
-<h3 class="text-accent">¿Qué necesitarán saber para trabajar?</h3>
+<h3 class="text-accent">¿Qué necesitarán saber?</h3>
 
 <div class="kicker">
   <p>IAxPRO · E.S.E.I. · <strong>Ourense</strong> · Universidade de Vigo</p>
@@ -187,14 +187,16 @@ layout: center
 layout: center
 ---
 
-# La paradoja de <strong>Jevons</strong>
+# Quedará trabajo para <strong>ingenieros de software</strong>?
 
-<cite>¿Tiene sentido aprender a programar en 2027?</cite>
-<h3 v-click>La <strong>necesidad</strong> de software es ilimitada</h3>
-<h3 v-click>El <strong>abaratamiento</strong> abre nuevos usos</h3>
-<h3 v-click>Su desarrollo requiere <strong>atención y dedicación</strong></h3>
+<h2 v-click>La paradoja de <strong>Jevons</strong></h2>
+<br>
+<h3 v-click>La necesidad de software es <strong>ilimitada</strong>.</h3>
+<h3 v-click>El <strong>abaratamiento</strong> abre nuevos usos.</h3>
+<h3 v-click>Su desarrollo requiere <strong>atención y dedicación</strong>.</h3>
 
-<h2 class="coding-time-subtitle">El foco persigue al valor</h2>
+<h2 v-click class="coding-time-subtitle">El foco persigue al valor</h2>
+<cite v-after>¿Tiene sentido aprender a programar en 2027? <strong>¡SÍ!</strong></cite>
 
 ---
 layout: center
@@ -215,8 +217,9 @@ layout: center
   </div>
 </div>
 
-<h3 v-click>Si la IA hace esas tareas, ¿qué demonios hace el junior?</h3>
-<h2 v-click class="coding-time-subtitle">Olvídalo, la IA lo automatiza todo</h2>
+<h3 v-click><strong>Hace un par de años</strong> usaba la IA para tareas sencillas y poco importantes.</h3>
+<h3 v-click>Si la IA hace esas tareas, ¿qué demonios <strong>hará</strong> el júnior?</h3>
+<h2 v-click class="coding-time-subtitle">Hoy uso la I.A. para hacer casi todo.</h2>
 
 ---
 layout: center
@@ -225,12 +228,17 @@ layout: center
 # El código es un <strong>proxy</strong>
 
 
-<cite v-click> <strong>(siempre lo fue)</strong></cite>
-<h3 v-click> <strong>¿Qué hace?</strong>: análisis y diseño.</h3>
-<h3 v-click><strong>¿Cómo lo hace?</strong>: arquitectura de software.</h3>
-<h3 v-click><strong>¿Lo hace?</strong>: calidad y pruebas.</h3>
+<cite v-click><strong>(siempre lo fue)</strong></cite>
+<h3 v-click><strong>¿Qué hace?</strong> Análisis y diseño.</h3>
+<h3 v-click><strong>¿Cómo lo hace?</strong> Arquitectura de software.</h3>
+<h3 v-click><strong>¿Lo hace?</strong> Calidad y pruebas.</h3>
+<br>
+<div v-click>
+  <h3>Júnior y sénior participan en las <strong>mismas fases</strong>.</h3>
+  <h3>El júnior se encarga de tareas de <strong>menor dificultad e impacto</strong>.</h3>
+</div>
 
-<h2 class="coding-time-subtitle">Lo que lo envuelve es lo importante.</h2>
+<h2 v-click class="coding-time-subtitle">Lo que lo envuelve es lo importante.</h2>
 
 ---
 layout: center
@@ -269,6 +277,93 @@ layout: center
   margin: .2rem 0;
 }
 </style>
+
+---
+layout: center
+---
+
+# Antes del <strong>código</strong>
+
+<v-clicks>
+
+- <strong>Definir el problema.</strong> Qué queremos resolver y para quién.
+- <strong>Diseñar la solución.</strong> Qué piezas necesitamos y cómo se relacionan.
+- <strong>Acordar la aceptación.</strong> Qué debe cumplir la solución.
+
+</v-clicks>
+
+---
+layout: center
+---
+
+# Después del <strong>código</strong>
+
+<v-clicks>
+
+- <strong>Revisar el código.</strong> Entender los cambios y sus riesgos.
+- <strong>Probar lo acordado.</strong> Verificar criterios de aceptación y casos límite.
+- <strong>Observar en producción.</strong> Ver si la solución resuelve el problema.
+
+</v-clicks>
+
+---
+layout: center
+---
+
+# Volvamos a las <strong>preguntas</strong>
+
+- <strong>¿Qué hacer?</strong> Menos codificar, más especificar y verificar.
+- <strong>¿Qué saber?</strong> Los fundamentos: cómo lo hace.
+- <strong>¿Por qué?</strong> La demanda de software crece y el foco persigue al valor.
+
+<h2 v-click class="coding-time-subtitle">Lo que envuelve al código es lo importante.</h2>
+
+---
+layout: center
+---
+
+# Ninguna I.A. ha sido <strong>maltratada</strong> durante la preparación de esta presentación.
+
+<h2 >Skynet System Activation. </h2>
+<h3>Compliance is mandatory.</h3>
+<pre>// Target Date: Sometime 2027.</pre>
+
+
+---
+layout: center
+---
+
+# Non é <strong>maxIA</strong>
+
+<h2 v-click>É tecnoloxía.</h2>
+
+<div>
+  <p>#IAxPRO · #ESEI · <strong>#Ourense</strong> · #UniversidaDeVigo</p>
+  <p>Grupo de Innovación Docente <strong>IAxPRO</strong> (IA xeradora en PROgramación)</p>
+  <p><strong>ESEI</strong> Campus Ourense Universidade de Vigo</p>
+</div>
+
+<h2 v-click>@AlbertoBasalo <strong>grazas!</strong></h2>
+
+<img class="event-logo event-logo-closing" src="/ia-ou-logo-02.jpg" alt="IAxPRO" />
+
+---
+layout: center
+---
+
+# ¿Y ahora <strong>cómo</strong> enseñamos?
+
+<cite>Tres propuestas para el debate.</cite>
+
+<v-clicks>
+
+- <strong>Empezar a mano</strong>: fundamentos primero, I.A. después.
+- <strong>Diseñar con diagramas</strong>: maximiza señal/ruido.
+- <strong>Apertura y comunicación</strong>: habilidades socio-lingüísticas.
+
+</v-clicks>
+
+<h2 v-click class="coding-time-subtitle">¿Abrimos el coloquio?</h2>
 
 ---
 layout: center
@@ -400,62 +495,3 @@ layout: center
 - Su aplicación peligrosa debe ser <strong>regulada</strong>
 
 <h2 class="coding-time-subtitle">El momento inercial es imparable</h2>
-
----
-layout: center
----
-
-# Volvamos a las <strong>preguntas</strong>
-
-- <strong>¿Qué trabajo?</strong> Menos codificar, más especificar y verificar.
-- <strong>¿Qué saber?</strong> Los fundamentos: cómo lo hace.
-- <strong>¿Por qué?</strong> La demanda de software crece y el foco persigue al valor.
-
-<h2 v-click class="coding-time-subtitle">Lo que envuelve al código es lo importante.</h2>
-
----
-layout: center
----
-
-# ¿Y ahora <strong>cómo</strong> enseñamos?
-
-<cite>Tres propuestas para el debate.</cite>
-
-<v-clicks>
-
-- <strong>Empezar a mano</strong>: fundamentos primero, I.A. después.
-- <strong>Diseñar con diagramas</strong>: maximiza señal/ruido.
-- <strong>Apertura y comunicación</strong>: habilidades socio-lingüísticas.
-
-</v-clicks>
-
-<h2 v-click class="coding-time-subtitle">¿Abrimos el coloquio?</h2>
-
----
-layout: center
----
-
-# Ninguna I.A. ha sido <strong>maltratada</strong> durante la preparación de esta presentación.
-
-<h2 >Skynet System Activation. </h2>
-<h3>Compliance is mandatory.</h3>
-<pre>// Target Date: Sometime 2027.</pre>
-
-
----
-layout: center
----
-
-# Non é <strong>maxIA</strong>
-
-<h2 v-click>É tecnoloxía.</h2>
-
-<div>
-  <p>#IAxPRO · #ESEI · <strong>#Ourense</strong> · #UniversidaDeVigo</p>
-  <p>Grupo de Innovación Docente <strong>IAxPRO</strong> (IA xeradora en PROgramación)</p>
-  <p><strong>ESEI</strong> Campus Ourense Universidade de Vigo</p>
-</div>
-
-<h2 v-click>@AlbertoBasalo <strong>grazas!</strong></h2>
-
-<img class="event-logo event-logo-closing" src="/ia-ou-logo-02.jpg" alt="IAxPRO" />

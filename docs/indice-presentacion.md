@@ -1,17 +1,17 @@
 # A.I. native juniors · Índice de diapositivas
 
-21 diapositivas y dos propuestas (13a y 13b) en el orden previsto para la charla. La numeración de las diapositivas existentes corresponde a [slides.md](../slides.md).
+23 diapositivas en el orden de [slides.md](../slides.md).
 
 **Índice de bloques**
 
 - [1. Apertura](#1-apertura) · 1–4
 - [2. Aprender y desarrollar antes de la IA](#2-aprender-y-desarrollar-antes-de-la-ia) · 5–6
 - [3. El desarrollo con IA](#3-el-desarrollo-con-ia) · 7–9
-- [4. El trabajo júnior y los fundamentos](#4-el-trabajo-júnior-y-los-fundamentos) · 10–13, 13a y 13b
-- [5. Conclusiones](#5-conclusiones) · 18
-- [6. Cierre](#6-cierre) · 20–21
+- [4. El trabajo júnior y los fundamentos](#4-el-trabajo-júnior-y-los-fundamentos) · 10–15
+- [5. Conclusiones](#5-conclusiones) · 16
+- [6. Cierre](#6-cierre) · 17–18
 - [7. Coloquio](#7-coloquio) · 19
-- [8. Material de reserva](#8-material-de-reserva) · 14–17
+- [8. Material de reserva](#8-material-de-reserva) · 20–23
 
 ## 1. Apertura
 
@@ -73,27 +73,27 @@ El código plasma las decisiones sobre el problema y la solución, y un júnior 
 
 Propone practicar la especificación, el diseño y la verificación, empezando a mano y revisando con disciplina.
 
-### 13a. Antes del código
+### 14. Antes del código
 
 Define el problema, las restricciones y los criterios de aceptación, y diseña la solución antes de escribir código o pedírselo a la IA.
 
-### 13b. Después del código
+### 15. Después del código
 
 Revisa el código y prueba que cumple lo acordado, y observa en producción si la solución resuelve el problema.
 
 ## 5. Conclusiones
 
-### 18. Volvamos a las preguntas
+### 16. Volvamos a las preguntas
 
 Concluye que, ante una demanda creciente de software, los júniors deberán especificar, verificar y entender cómo funcionan las soluciones.
 
 ## 6. Cierre
 
-### 20. Ninguna I.A. ha sido maltratada durante la preparación de esta presentación.
+### 17. Ninguna I.A. ha sido maltratada durante la preparación de esta presentación.
 
 Remata la charla con una broma sobre la activación de Skynet en 2027.
 
-### 21. Non é maxIA
+### 18. Non é maxIA
 
 Cierra en gallego con «É tecnoloxía», reconoce al grupo IAxPRO y da las gracias al público.
 
@@ -107,25 +107,25 @@ Abre el coloquio con la propuesta de empezar a mano, diseñar con diagramas y tr
 
 Desde el coloquio se puede saltar a una de estas diapositivas si cuesta arrancar, sobra tiempo o surge una pregunta relacionada.
 
-### 14. Un poco de subjetividad
+### 20. Un poco de subjetividad
 
 Abre una reflexión personal sobre cómo somos quienes nos dedicamos a programar.
 
-**Uso en el coloquio.** Sirve de transición si se quiere introducir una reflexión sobre el oficio y dar paso a la 15 o la 16.
+**Uso en el coloquio.** Sirve de transición si se quiere introducir una reflexión sobre el oficio y dar paso a la 21 o la 22.
 
-### 15. La programación siempre evoluciona
+### 21. La programación siempre evoluciona
 
 Recorre con humor cómo han cambiado los perfiles de programadores y los niveles de abstracción, del código máquina al no code.
 
 **Uso en el coloquio.** Si sobra tiempo, abre una conversación sobre qué fundamentos han seguido siendo útiles a medida que ha cambiado la forma de programar.
 
-### 16. El peligro de la dopamina
+### 22. El peligro de la dopamina
 
 Sugiere que la IA cambia el ciclo de recompensa de programar y depurar, con posibles efectos sobre la paciencia y el foco.
 
 **Uso en el coloquio.** Si cuesta arrancar, plantea al profesorado «¿Qué habéis observado en la motivación del alumnado cuando programa con IA?».
 
-### 17. El futuro no espera
+### 23. El futuro no espera
 
 Plantea la energía, el colapso de modelos y la regulación de usos peligrosos como posibles límites al avance de la IA.
 
