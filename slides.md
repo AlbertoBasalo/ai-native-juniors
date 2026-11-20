@@ -28,13 +28,13 @@ fonts:
 layout: center
 ---
 
-# ¿Qué <strong>trabajo</strong> le encargarán a un júnior en unos años?
+# ¿Qué <strong>trabajo</strong> se le encargará?
 
 ---
 layout: center
 ---
 
-# ¿Qué necesitará <strong>saber</strong> para progresar en su trabajo?
+# ¿Cómo puede <strong>progresar</strong>?
 
 ---
 layout: center
@@ -50,7 +50,7 @@ layout: center
 </div>
 <div v-click class="bio-story">
   <p>He trabajado para <strong>Gadis, Inditex y Tous</strong></p>
-  <p>Fundé <strong>Ágora Binaria</strong> una software factory <em>junior friendly</em></p>
+  <p>Fundé y dirigí durante 8 años una software factory <strong>junior friendly</strong></p>
   <p>Consultoría y formación a <strong>medio IBEX 35</strong></p>
 </div>
 
@@ -65,16 +65,16 @@ layout: center
 
 <v-clicks>
 
-- El lenguaje <strong>Pascal</strong>
+- El lenguaje <strong>Prolog</strong>
 - La metodología <strong>Warnier</strong>
-- Recorrer <strong>árboles de nodos</strong>
-- Y, lo más útil, <strong>¡álgebra relacional!</strong>
+- Transformadas de <strong>Fourier</strong>
+- Y, por supuesto, <strong>¡álgebra y cálculo relacional!</strong>
 
 </v-clicks>
 
-<p v-click class="statement">No he ganado ni un duro, mucho menos un euro, con esto.</p>
+<h2 v-click class="statement">No he ganado ni un duro, mucho menos un euro, con esto.</h2>
 
-<h2 v-click>Pero todo ayudó a amueblar la mente.</h2>
+<cite v-click>Pero todo ayudó a amueblar la mente. Igual que el <strong>S.D.L.C.</strong></cite>
 
 ---
 layout: center
@@ -108,7 +108,8 @@ layout: center
   </div>
 </div>
 
-<cite>Desde el waterfall al agile. Todo lo que inicia tiene un final.</cite>
+<cite>Desde el waterfall al agile, todo lo que inicia tiene un final.</cite>
+<cite v-click>Y esta realidad también <strong>se desvanece...</strong></cite>
 
 ---
 layout: center
@@ -116,7 +117,7 @@ layout: center
 
 # Los años <strong>veinte</strong>, la década prodigiosa
 
-<h2 v-click class="coding-time-subtitle">¿Qué cambia cuando automatizamos la codificación?</h2>
+<h2 v-click class="coding-time-subtitle">¿Qué cambia cuando todo cambia?</h2>
 
 
 ---
@@ -153,7 +154,8 @@ layout: center
   </div>
 </div>
 
-<cite>Hitos de la I.A. para desarrolladores. Sin escala temporal.</cite>
+<cite>Hitos de la I.A. para desarrolladores.</cite>
+<cite v-click>Y el S.D.L.C. <strong>¿qué?</strong></cite>
 
 ---
 layout: center
@@ -182,6 +184,7 @@ layout: center
 <h2 v-click class="coding-time-subtitle">¿Cómo debería cambiar el reparto de la formación?</h2>
 
 <cite>¿Dónde se va el tiempo? </cite>
+<cite>¿Queda <strong>algo</strong> de tiempo?</cite>
 
 ---
 layout: center
@@ -191,12 +194,12 @@ layout: center
 
 <h2 v-click>La paradoja de <strong>Jevons</strong></h2>
 <br>
-<h3 v-click>La necesidad de software es <strong>ilimitada</strong>.</h3>
+<h3 v-click>La necesidad de software es <strong>ilimitada</strong></h3>
 <h3 v-click>El <strong>abaratamiento</strong> abre nuevos usos.</h3>
-<h3 v-click>Su desarrollo requiere <strong>atención y dedicación</strong>.</h3>
+<h3 v-click>Su desarrollo requiere <strong>atención y dedicación</strong></h3>
 
-<h2 v-click class="coding-time-subtitle">El foco persigue al valor</h2>
-<cite v-after>¿Tiene sentido aprender a programar en 2027? <strong>¡SÍ!</strong></cite>
+<h2 v-click class="coding-time-subtitle">El foco <em>(tuyo)</em> persigue al valor <em>(ajeno)</em></h2>
+<cite v-after>¿Tiene sentido aprender ingeniería de software en 2027? <strong>¡SÍ!</strong></cite>
 
 ---
 layout: center
@@ -217,9 +220,9 @@ layout: center
   </div>
 </div>
 
-<h3 v-click><strong>Hace un par de años</strong> usaba la IA para tareas sencillas y poco importantes.</h3>
-<h3 v-click>Si la IA hace esas tareas, ¿qué demonios <strong>hará</strong> el júnior?</h3>
-<h2 v-click class="coding-time-subtitle">Hoy uso la I.A. para hacer casi todo.</h2>
+<h3 v-click><strong>Hace un par de años</strong> usaba la I.A. para tareas sencillas y poco importantes.</h3>
+<h3 v-click>Si la I.A. hace esas tareas, ¿qué demonios <strong>hará</strong> el júnior?</h3>
+<h2 v-click class="coding-time-subtitle"><em>F*ck</em>. Hoy uso la I.A. para casi todo.</h2>
 
 ---
 layout: center
@@ -229,13 +232,13 @@ layout: center
 
 
 <cite v-click><strong>(siempre lo fue)</strong></cite>
-<h3 v-click><strong>¿Qué hace?</strong> Análisis y diseño.</h3>
-<h3 v-click><strong>¿Cómo lo hace?</strong> Arquitectura de software.</h3>
-<h3 v-click><strong>¿Lo hace?</strong> Calidad y pruebas.</h3>
+<h3 v-click><strong>¿Qué hace?</strong> Análisis y diseño</h3>
+<h3 v-click><strong>¿Cómo se hace?</strong> Arquitectura de software</h3>
+<h3 v-click><strong>¿Cómo lo hace?</strong> Calidad y pruebas</h3>
 <br>
 <div v-click>
-  <h3>Júnior y sénior participan en las <strong>mismas fases</strong>.</h3>
-  <h3>El júnior se encarga de tareas de <strong>menor dificultad e impacto</strong>.</h3>
+  <h3>Júnior y sénior participan y usan la I.A. en las <strong>mismas fases</strong></h3>
+  <h3>El júnior se encarga de tareas de <strong>menor dificultad e impacto</strong></h3>
 </div>
 
 <h2 v-click class="coding-time-subtitle">Lo que lo envuelve es lo importante.</h2>
@@ -251,19 +254,21 @@ layout: center
 <v-clicks>
 
 - <strong>¿Qué hace?</strong> Especificar problemas
-  - Qué se espera y qué no.
+  - Dominios y usuarios: qué y para quién.
+  - Requisitos y alcance: necesidad y limites.
 - <strong>¿Cómo lo hace?</strong> Diseñar soluciones
   - Algoritmos + estructuras de datos: el Sr. Wirth tenía razón.
   - Abstracción y detalle: descomponer, definir contratos e implementar.
   - Sistemas y servicios: dónde y cómo se ejecuta el software.
 - <strong>¿Lo hace?</strong> Verificar la solución
-  - Confía pero comprueba.
+  - Múltiples estrategias de prueba.
+
 
 </v-clicks>
-
 </div>
 
-<h2 class="coding-time-subtitle">Empezar a mano, revisar con disciplina.</h2>
+<h2 v-click class="coding-time-subtitle">¿Quién lo hace?</h2>
+<h3 v-click>Empatía, comunicación y colaboración.</h3>
 
 <style scoped>
 .fundamentals > ul > li {
@@ -282,34 +287,6 @@ layout: center
 layout: center
 ---
 
-# Antes del <strong>código</strong>
-
-<v-clicks>
-
-- <strong>Definir el problema.</strong> Qué queremos resolver y para quién.
-- <strong>Diseñar la solución.</strong> Qué piezas necesitamos y cómo se relacionan.
-- <strong>Acordar la aceptación.</strong> Qué debe cumplir la solución.
-
-</v-clicks>
-
----
-layout: center
----
-
-# Después del <strong>código</strong>
-
-<v-clicks>
-
-- <strong>Revisar el código.</strong> Entender los cambios y sus riesgos.
-- <strong>Probar lo acordado.</strong> Verificar criterios de aceptación y casos límite.
-- <strong>Observar en producción.</strong> Ver si la solución resuelve el problema.
-
-</v-clicks>
-
----
-layout: center
----
-
 # Volvamos a las <strong>preguntas</strong>
 
 - <strong>¿Qué hacer?</strong> Menos codificar, más especificar y verificar.
@@ -317,6 +294,7 @@ layout: center
 - <strong>¿Por qué?</strong> La demanda de software crece y el foco persigue al valor.
 
 <h2 v-click class="coding-time-subtitle">Lo que envuelve al código es lo importante.</h2>
+<h3 v-click>Y las <strong>habilidades humanas</strong> lo más importante de lo importante.</h3>
 
 ---
 layout: center
@@ -495,3 +473,31 @@ layout: center
 - Su aplicación peligrosa debe ser <strong>regulada</strong>
 
 <h2 class="coding-time-subtitle">El momento inercial es imparable</h2>
+
+---
+layout: center
+---
+
+# Antes del <strong>código</strong>
+
+<v-clicks>
+
+- <strong>Definir el problema.</strong> Qué queremos resolver y para quién.
+- <strong>Diseñar la solución.</strong> Qué piezas necesitamos y cómo se relacionan.
+- <strong>Acordar la aceptación.</strong> Qué debe cumplir la solución.
+
+</v-clicks>
+
+---
+layout: center
+---
+
+# Después del <strong>código</strong>
+
+<v-clicks>
+
+- <strong>Revisar el código.</strong> Entender los cambios y sus riesgos.
+- <strong>Probar lo acordado.</strong> Verificar criterios de aceptación y casos límite.
+- <strong>Observar en producción.</strong> Ver si la solución resuelve el problema.
+
+</v-clicks>
