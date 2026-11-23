@@ -93,8 +93,8 @@
 .coding-time-bar > span { display: flex; align-items: center; justify-content: center; background: var(--ab-process-fill); font-size: 1rem; white-space: nowrap; }
 .coding-time-bar .coding-time-code { background: var(--ab-accent); color: var(--ab-code-ink); font-weight: 700; }
 .coding-time-theory { grid-template-columns: 1fr 1fr 1fr 1fr 1fr; }
-.coding-time-experience { grid-template-columns: 1.15fr 1fr 4.6fr 1fr .85fr; }
-.coding-time-future { grid-template-columns: 1fr 1fr .12fr 1fr 1fr; }
+.coding-time-experience { grid-template-columns: .5fr .5fr 3fr .5fr .5fr; }
+.coding-time-future { grid-template-columns: 1fr 1fr .1fr 1fr 1fr; }
 .coding-time-pointer { color: var(--ab-accent); text-align: center; font-size: .95rem; padding-top: .2rem; }
 .coding-time-pointer::before { content: ''; display: block; width: 1px; height: .45rem; background: var(--ab-accent); margin: 0 auto .1rem; }
 .slidev-layout .coding-time-question { color: var(--ab-accent); font-size: 1.65rem; line-height: 1.2; margin: 1.2rem 0 .7rem; }

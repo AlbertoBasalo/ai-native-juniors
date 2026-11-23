@@ -91,6 +91,7 @@ export function release(root, { dryRun = false, message = 'Actualizar presentaci
     }
     git('push', 'origin', 'HEAD:refs/heads/main');
     console.log('Fuentes enviadas a main.');
+    console.log('Publicación disponible en:' + "https://albertobasalo.github.io/ai-native-juniors/1");
   }
   publish(root, { dryRun });
 }

@@ -28,13 +28,13 @@ fonts:
 layout: center
 ---
 
-# ¿Qué <strong>trabajo</strong> se le encargará?
+# ¿Qué les <strong>encargarán?</strong>?
 
 ---
 layout: center
 ---
 
-# ¿Cómo puede <strong>progresar</strong>?
+# ¿Cómo <strong>progresarán</strong>?
 
 ---
 layout: center
@@ -46,7 +46,7 @@ layout: center
 
 <div class="bio-story">
   <p v-click><strong>Ourense</strong>, años 80</p>
-  <pre v-click>Mi primer ordenador <strong>MSX</strong> y lenguaje <strong>BASIC</strong></pre>
+  <pre v-click>Empecé con un <strong>Philips MSX</strong> y lenguaje <strong>BASIC</strong></pre>
 </div>
 <div v-click class="bio-story">
   <p>He trabajado para <strong>Gadis, Inditex y Tous</strong></p>
@@ -55,7 +55,7 @@ layout: center
 </div>
 
 <h2 v-click>Hoxe sinto que volvo á casa.</h2>
-<cite v-click>Para hablar de cosas inimaginables cuando salí de aquí...</cite>
+<cite v-click>Para hablar de cosas inimaginables cuando me fui...</cite>
 
 ---
 layout: center
@@ -68,13 +68,12 @@ layout: center
 - El lenguaje <strong>Prolog</strong>
 - La metodología <strong>Warnier</strong>
 - Transformadas de <strong>Fourier</strong>
-- Y, por supuesto, <strong>¡álgebra y cálculo relacional!</strong>
-
+- Toneladas de <strong>análisis de la varianza y cálculo diferencial</strong>
 </v-clicks>
 
 <h2 v-click class="statement">No he ganado ni un duro, mucho menos un euro, con esto.</h2>
 
-<cite v-click>Pero todo ayudó a amueblar la mente. Igual que el <strong>S.D.L.C.</strong></cite>
+<cite v-click>Pero me ayudó a iniciar mi ciclo. Y hablando de ciclo... <strong>Enter S.D.L.C.</strong></cite>
 
 ---
 layout: center
@@ -109,7 +108,7 @@ layout: center
 </div>
 
 <cite>Desde el waterfall al agile, todo lo que inicia tiene un final.</cite>
-<cite v-click>Y esta realidad también <strong>se desvanece...</strong></cite>
+<h2 v-click>Y últimamente la realidad <strong>se desvanece...</strong></h2>
 
 ---
 layout: center
@@ -192,14 +191,14 @@ layout: center
 
 # Quedará trabajo para <strong>ingenieros de software</strong>?
 
-<h2 v-click>La paradoja de <strong>Jevons</strong></h2>
-<br>
 <h3 v-click>La necesidad de software es <strong>ilimitada</strong></h3>
 <h3 v-click>El <strong>abaratamiento</strong> abre nuevos usos.</h3>
 <h3 v-click>Su desarrollo requiere <strong>atención y dedicación</strong></h3>
+<br>
+<h2 v-click>La paradoja de <strong>Jevons</strong></h2>
 
+<cite v-click>¿Tiene sentido aprender ingeniería de software en 2027? <strong>¡SÍ!</strong></cite>
 <h2 v-click class="coding-time-subtitle">El foco <em>(tuyo)</em> persigue al valor <em>(ajeno)</em></h2>
-<cite v-after>¿Tiene sentido aprender ingeniería de software en 2027? <strong>¡SÍ!</strong></cite>
 
 ---
 layout: center
@@ -220,9 +219,28 @@ layout: center
   </div>
 </div>
 
-<h3 v-click><strong>Hace un par de años</strong> usaba la I.A. para tareas sencillas y poco importantes.</h3>
+<h3 v-click>Yo, <strong>hace un par de años</strong> usaba la I.A. para tareas sencillas y poco importantes.</h3>
+<h3 v-click><em>! Y pensé !</em> </h3>
 <h3 v-click>Si la I.A. hace esas tareas, ¿qué demonios <strong>hará</strong> el júnior?</h3>
-<h2 v-click class="coding-time-subtitle"><em>F*ck</em>. Hoy uso la I.A. para casi todo.</h2>
+<h2 v-click class="coding-time-subtitle"><em>F*ck</em>. Hoy uso la I.A. para todo.</h2>
+
+---
+layout: center
+---
+
+# Out of <strong>scope</strong>
+
+<v-clicks>
+
+- No me dedico a sistemas, redes, datos, seguridad, cloud, etc.
+
+- No me dedico a I.A. fundamental ni a machine learning.
+
+- No me dedico a software de base: compiladores, intérpretes etc.
+</v-clicks>
+
+<h2 v-click class="coding-time-subtitle">Solamente a desarrollo de aplicaciones de negocio.</h2>
+
 
 ---
 layout: center
