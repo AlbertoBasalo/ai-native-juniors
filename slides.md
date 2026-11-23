@@ -61,6 +61,23 @@ layout: center
 layout: center
 ---
 
+# Out of <strong>scope</strong>
+
+<v-clicks>
+
+- _No me dedico a_ sistemas, redes, datos, seguridad, cloud, etc.
+
+- _No me dedico a_ I.A. fundamental ni a machine learning.
+
+- _No me dedico a_ software de base: compiladores, intérpretes etc.
+</v-clicks>
+
+<h2 v-click class="coding-time-subtitle">Solamente a desarrollo de aplicaciones de negocio.</h2>
+
+---
+layout: center
+---
+
 # ¿Qué nos enseñaban <strong>antes</strong>?
 
 <v-clicks>
@@ -224,22 +241,7 @@ layout: center
 <h3 v-click>Si la I.A. hace esas tareas, ¿qué demonios <strong>hará</strong> el júnior?</h3>
 <h2 v-click class="coding-time-subtitle"><em>F*ck</em>. Hoy uso la I.A. para todo.</h2>
 
----
-layout: center
----
 
-# Out of <strong>scope</strong>
-
-<v-clicks>
-
-- No me dedico a sistemas, redes, datos, seguridad, cloud, etc.
-
-- No me dedico a I.A. fundamental ni a machine learning.
-
-- No me dedico a software de base: compiladores, intérpretes etc.
-</v-clicks>
-
-<h2 v-click class="coding-time-subtitle">Solamente a desarrollo de aplicaciones de negocio.</h2>
 
 
 ---
@@ -267,52 +269,64 @@ layout: center
 
 # Volver a los <strong>fundamentos</strong>
 
-<div class="fundamentals">
+<h2 class="coding-time-subtitle"><strong>¿Qué hace?</strong> Especificar problemas</h2>
 
 <v-clicks>
 
-- <strong>¿Qué hace?</strong> Especificar problemas
-  - Dominios y usuarios: qué y para quién.
-  - Requisitos y alcance: necesidad y limites.
-- <strong>¿Cómo lo hace?</strong> Diseñar soluciones
-  - Algoritmos + estructuras de datos: el Sr. Wirth tenía razón.
-  - Abstracción y detalle: descomponer, definir contratos e implementar.
-  - Sistemas y servicios: dónde y cómo se ejecuta el software.
-- <strong>¿Lo hace?</strong> Verificar la solución
-  - Múltiples estrategias de prueba.
-
+<li> Dominios y usuarios: qué y para quién. </li>
+<li> Requisitos y alcance: necesidad y límites. </li>
 
 </v-clicks>
-</div>
-
-<h2 v-click class="coding-time-subtitle">¿Quién lo hace?</h2>
-<h3 v-click>Empatía, comunicación y colaboración.</h3>
-
-<style scoped>
-.fundamentals > ul > li {
-  margin: .8rem 0;
-}
-
-.fundamentals li li {
-  color: var(--ab-muted);
-  font-size: 1.15rem;
-  line-height: 1.3;
-  margin: .2rem 0;
-}
-</style>
 
 ---
 layout: center
 ---
 
-# Volvamos a las <strong>preguntas</strong>
+# Volver a los <strong>fundamentos</strong>
 
-- <strong>¿Qué hacer?</strong> Menos codificar, más especificar y verificar.
-- <strong>¿Qué saber?</strong> Los fundamentos: cómo lo hace.
-- <strong>¿Por qué?</strong> La demanda de software crece y el foco persigue al valor.
+<h2 class="coding-time-subtitle"><strong>¿Cómo lo hace?</strong> Diseñar soluciones</h2>
 
-<h2 v-click class="coding-time-subtitle">Lo que envuelve al código es lo importante.</h2>
-<h3 v-click>Y las <strong>habilidades humanas</strong> lo más importante de lo importante.</h3>
+<v-clicks>
+  <div>
+    <li> Algoritmos + estructuras de datos: </li>
+    <cite> el Sr. Wirth tenía razón </cite>
+  </div>
+  <div>
+    <li> Abstracción y detalle: </li>
+    <cite> descomponer, definir contratos e implementar </cite>
+  </div>
+  <div>
+    <li> Sistemas y servicios: </li>
+    <cite> dónde y cómo se ejecuta el software </cite>
+  </div>
+</v-clicks>
+
+---
+layout: center
+---
+
+# Volver a los <strong>fundamentos</strong>
+
+<h2 class="coding-time-subtitle"><strong>¿Lo hace?</strong> Verificar la solución</h2>
+
+<v-clicks>
+  <div>
+    <li> White-box:</li>
+    <cite> Pruebas unitarias y de integración. </cite>
+  </div>
+  <div>
+    <li> Black-box:</li>
+    <cite> Pruebas de aceptación y de usuario. </cite>
+  </div>
+</v-clicks>
+
+---
+layout: center
+---
+
+# ¿Quién lo <strong>hace</strong>?
+
+<h2 v-click>Empatía, <strong>comunicación</strong> y colaboración.</h2>
 
 ---
 layout: center
@@ -519,3 +533,16 @@ layout: center
 - <strong>Observar en producción.</strong> Ver si la solución resuelve el problema.
 
 </v-clicks>
+
+---
+layout: center
+---
+
+# Volvamos a las <strong>preguntas</strong>
+
+- <strong>¿Qué hacer?</strong> Menos codificar, más especificar y verificar.
+- <strong>¿Qué saber?</strong> Los fundamentos: cómo lo hace.
+- <strong>¿Por qué?</strong> La demanda de software crece y el foco persigue al valor.
+
+<h2 v-click class="coding-time-subtitle">Lo que envuelve al código es lo importante.</h2>
+<h3 v-click>Y las <strong>habilidades humanas</strong> lo más importante de lo importante.</h3>
