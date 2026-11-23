@@ -61,7 +61,7 @@ layout: center
 layout: center
 ---
 
-# Out of <strong>scope</strong>
+# Out of <strong>my scope</strong>
 
 <v-clicks>
 
@@ -273,8 +273,14 @@ layout: center
 
 <v-clicks>
 
-<li> Dominios y usuarios: qué y para quién. </li>
-<li> Requisitos y alcance: necesidad y límites. </li>
+<div>
+  <li> Dominios y usuarios:  </li>
+  <cite> qué hacer y para quién.</cite>
+</div>
+<div>
+  <li> Requisitos y alcance: </li>
+  <cite> necesidad y límites.</cite>
+</div>
 
 </v-clicks>
 
