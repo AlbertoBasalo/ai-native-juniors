@@ -20,20 +20,21 @@ jobs:
     outputs:
       artifact_name: ${{ steps.artifact.outputs.name }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
           ref: ${{ github.ref == 'refs/heads/gh-pages' && github.sha || 'gh-pages' }}
 
-      - uses: actions/configure-pages@v5
+      - uses: actions/configure-pages@v6
 
       - name: Nombrar el artefacto de este intento
         id: artifact
         run: echo "name=github-pages-$GITHUB_RUN_ATTEMPT" >> "$GITHUB_OUTPUT"
 
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         with:
           name: ${{ steps.artifact.outputs.name }}
           path: .
+          include-hidden-files: true
 
   deploy:
     needs: upload
@@ -44,6 +45,6 @@ jobs:
     steps:
       - name: Publicar
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
         with:
           artifact_name: ${{ needs.upload.outputs.artifact_name }}
