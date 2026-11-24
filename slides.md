@@ -261,7 +261,7 @@ layout: center
 <br>
 <div v-click>
   <h3>Júnior y sénior participan y usan la I.A. en las <strong>mismas fases</strong></h3>
-  <h3>El júnior se encarga de tareas de <strong>menor dificultad e impacto</strong></h3>
+  <h3>Al júnior se le encargan tareas de <strong>menor dificultad e impacto</strong></h3>
 </div>
 
 <h2 v-click class="coding-time-subtitle">Lo que lo envuelve es lo importante.</h2>
@@ -337,7 +337,7 @@ layout: center
 layout: center
 ---
 
-# ¿Quién lo <strong>hace</strong>?
+# ¿<strong>Quién</strong> lo hace?
 
 <h2 v-click>Empatía, <strong>comunicación</strong> y colaboración.</h2>
 
