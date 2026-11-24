@@ -85,7 +85,7 @@ layout: center
 - El lenguaje <strong>Prolog</strong>
 - La metodología <strong>Warnier</strong>
 - Transformadas de <strong>Fourier</strong>
-- Toneladas de <strong>análisis de la varianza y cálculo diferencial</strong>
+- Ecuaciones de <strong>análisis de la varianza y cálculo diferencial</strong>
 </v-clicks>
 
 <h2 v-click class="statement">No he ganado ni un duro, mucho menos un euro, con esto.</h2>
@@ -206,10 +206,10 @@ layout: center
 layout: center
 ---
 
-# Quedará trabajo para <strong>ingenieros de software</strong>?
+# ¿Quedará trabajo en la <strong>industria del software</strong>?
 
 <h3 v-click>La necesidad de software es <strong>ilimitada</strong></h3>
-<h3 v-click>El <strong>abaratamiento</strong> abre nuevos usos.</h3>
+<h3 v-click>El <strong>abaratamiento</strong> abre nuevos usos</h3>
 <h3 v-click>Su desarrollo requiere <strong>atención y dedicación</strong></h3>
 <br>
 <h2 v-click>La paradoja de <strong>Jevons</strong></h2>
@@ -252,9 +252,12 @@ layout: center
 
 
 <cite v-click><strong>(siempre lo fue)</strong></cite>
-<h3 v-click><strong>¿Qué hace?</strong> Análisis y diseño</h3>
-<h3 v-click><strong>¿Cómo se hace?</strong> Arquitectura de software</h3>
-<h3 v-click><strong>¿Cómo lo hace?</strong> Calidad y pruebas</h3>
+
+<header>
+  <h3 v-click><strong>¿Qué hace?</strong> Análisis del problema</h3>
+  <h3 v-click><strong>¿Cómo se hace?</strong> Arquitectura de software y sistemas</h3>
+  <h3 v-click><strong>¿Cómo lo hace?</strong> Calidad, pruebas y mantenimiento</h3>
+</header>
 <br>
 <div v-click>
   <h3>Júnior y sénior participan y usan la I.A. en las <strong>mismas fases</strong></h3>
@@ -274,12 +277,12 @@ layout: center
 <v-clicks>
 
 <div>
-  <li> Dominios y usuarios:  </li>
-  <cite> qué hacer y para quién.</cite>
+  <li>Dominios y usuarios:  </li>
+  <cite>Qué hacer y para quién.</cite>
 </div>
 <div>
-  <li> Requisitos y alcance: </li>
-  <cite> necesidad y límites.</cite>
+  <li>Requisitos y alcance: </li>
+  <cite>Necesidad y límites.</cite>
 </div>
 
 </v-clicks>
@@ -290,20 +293,20 @@ layout: center
 
 # Volver a los <strong>fundamentos</strong>
 
-<h2 class="coding-time-subtitle"><strong>¿Cómo lo hace?</strong> Diseñar soluciones</h2>
+<h2 class="coding-time-subtitle"><strong>¿Cómo se hace?</strong> Diseñar soluciones</h2>
 
 <v-clicks>
   <div>
-    <li> Algoritmos + estructuras de datos: </li>
-    <cite> el Sr. Wirth tenía razón </cite>
+    <li>Sistemas y servicios: </li>
+    <cite>Dónde y cómo se ejecuta el software.</cite>
   </div>
   <div>
-    <li> Abstracción y detalle: </li>
-    <cite> descomponer, definir contratos e implementar </cite>
+    <li>Abstracción y detalle: </li>
+    <cite>Descomponer, definir contratos e implementar.</cite>
   </div>
   <div>
-    <li> Sistemas y servicios: </li>
-    <cite> dónde y cómo se ejecuta el software </cite>
+    <li>Algoritmos + estructuras de datos: </li>
+    <cite>El Sr. Wirth tenía razón.</cite>
   </div>
 </v-clicks>
 
@@ -313,16 +316,20 @@ layout: center
 
 # Volver a los <strong>fundamentos</strong>
 
-<h2 class="coding-time-subtitle"><strong>¿Lo hace?</strong> Verificar la solución</h2>
+<h2 class="coding-time-subtitle"><strong>¿Cómo lo hace?</strong> Verificar y mantener</h2>
 
 <v-clicks>
   <div>
-    <li> White-box:</li>
-    <cite> Pruebas unitarias y de integración. </cite>
+    <li>White-box:</li>
+    <cite>Pruebas unitarias y de integración para calidad interna.</cite>
   </div>
   <div>
-    <li> Black-box:</li>
-    <cite> Pruebas de aceptación y de usuario. </cite>
+    <li>Black-box:</li>
+    <cite>Pruebas de aceptación y de usuario para funcionalidad externa.</cite>
+  </div>
+  <div>
+    <li>Refactoring:</li>
+    <cite>Eliminar obstáculos y promover la mejora continua.</cite>
   </div>
 </v-clicks>
 
