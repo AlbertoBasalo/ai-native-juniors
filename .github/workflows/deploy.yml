@@ -15,22 +15,35 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  upload:
+    runs-on: ubuntu-latest
+    outputs:
+      artifact_name: ${{ steps.artifact.outputs.name }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref == 'refs/heads/gh-pages' && github.sha || 'gh-pages' }}
+
+      - uses: actions/configure-pages@v5
+
+      - name: Nombrar el artefacto de este intento
+        id: artifact
+        run: echo "name=github-pages-$GITHUB_RUN_ATTEMPT" >> "$GITHUB_OUTPUT"
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          name: ${{ steps.artifact.outputs.name }}
+          path: .
+
   deploy:
+    needs: upload
     runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v4
-        with:
-          ref: gh-pages
-
-      - uses: actions/configure-pages@v5
-
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: .
-
       - name: Publicar
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          artifact_name: ${{ needs.upload.outputs.artifact_name }}
