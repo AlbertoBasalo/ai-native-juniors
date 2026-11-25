@@ -63,13 +63,15 @@ layout: center
 
 # Out of <strong>my scope</strong>
 
+<h3><strong>No</strong> me dedico a</h3>
+
 <v-clicks>
 
-- _No me dedico a_ sistemas, redes, datos, seguridad, cloud, etc.
+- Sistemas, redes, datos, seguridad, cloud, etc.
 
-- _No me dedico a_ I.A. fundamental ni a machine learning.
+- I.A. fundamental ni a machine learning.
 
-- _No me dedico a_ software de base: compiladores, intérpretes etc.
+- Software de base: compiladores, intérpretes etc.
 </v-clicks>
 
 <h2 v-click class="coding-time-subtitle">Solamente a desarrollo de aplicaciones de negocio.</h2>

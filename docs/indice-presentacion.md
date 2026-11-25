@@ -23,7 +23,7 @@ Plantea qué trabajo harán los júniors y cómo podrán progresar. Presenta al 
 | 2 | ¿Qué les encargarán? | Plantea qué tareas recibirán los júniors al incorporarse. |
 | 3 | ¿Cómo progresarán? | Pregunta qué necesitan aprender los júniors para avanzar en su trabajo. |
 | 4 | Alberto Basalo | Recorre su trayectoria desde el primer MSX en Ourense hasta la consultoría y la formación. |
-| 5 | Out of scope | Delimita el ámbito de la charla al desarrollo de aplicaciones de negocio. |
+| 5 | Out of my scope | Delimita el ámbito de la charla al desarrollo de aplicaciones de negocio. |
 
 ## 2. Aprender y desarrollar antes de la IA
 
@@ -50,12 +50,12 @@ Examina qué tareas puede asumir un júnior con IA y qué debe aprender para hac
 
 | N.º | Diapositiva | Resumen |
 | --- | --- | --- |
-| 11 | ¿Quedará trabajo para ingenieros de software? | Aplica la paradoja de Jevons al software para defender que abaratarlo abre nuevos usos. |
+| 11 | ¿Quedará trabajo en la industria del software? | Aplica la paradoja de Jevons al software para defender que abaratarlo abre nuevos usos. Subraya que desarrollarlo sigue requiriendo atención y dedicación. |
 | 12 | ¿Qué se le encarga a un junior? | Sitúa las tareas júnior en una matriz de dificultad e importancia y replantea su papel a partir de cómo ha cambiado el uso de la IA por parte del ponente. |
-| 13 | El código es un proxy | Destaca el análisis, el diseño, la arquitectura, la calidad y las pruebas. Júniors y séniors participan en las mismas fases, con tareas de distinta dificultad e impacto. |
+| 13 | El código es un proxy | Destaca el análisis del problema, la arquitectura de software y sistemas, y la calidad, las pruebas y el mantenimiento. Júniors y séniors usan la IA en las mismas fases. Los júniors asumen tareas de menor dificultad e impacto. |
 | 14 | Volver a los fundamentos · Especificar problemas | Identifica el dominio, los usuarios, los requisitos y los límites del alcance. |
-| 15 | Volver a los fundamentos · Diseñar soluciones | Reúne algoritmos y estructuras de datos, descomposición, contratos, implementación, sistemas y servicios. |
-| 16 | Volver a los fundamentos · Verificar la solución | Presenta las pruebas unitarias y de integración como ejemplos de white-box, y las pruebas de aceptación y de usuario como ejemplos de black-box. |
+| 15 | Volver a los fundamentos · Diseñar soluciones | Recorre los sistemas y servicios donde se ejecuta el software, la descomposición en piezas, los contratos, la implementación y el uso de algoritmos y estructuras de datos. |
+| 16 | Volver a los fundamentos · Verificar y mantener | Distingue las pruebas white-box (unitarias y de integración) de las black-box (de aceptación y de usuario). Incluye refactoring para eliminar obstáculos y facilitar la mejora continua. |
 | 17 | ¿Quién lo hace? | Cierra el bloque de fundamentos con la empatía, la comunicación y la colaboración. |
 
 ## 5. Cierre
