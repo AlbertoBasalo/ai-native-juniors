@@ -397,6 +397,9 @@ layout: center
 # Un poco de  <strong>subjetividad</strong>
 
 <h2 class="coding-time-subtitle">¿Cómo somos los programadores?</h2>
+<h3> y la ultima presentación aburrida que viste en tu vida...</h3>
+<a href="https://claude.ai/artifact/Cy2d8Vn63CnzCtonA1LSah" target="_blank">The last boring slide</a>
+
 
 ---
 layout: center
