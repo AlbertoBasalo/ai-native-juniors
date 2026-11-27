@@ -6,6 +6,8 @@ IAxPRO · E.S.E.I. · Universidade de Vigo · Ourense · 27 de noviembre de 2026
 
 https://albertobasalo.github.io/ai-native-juniors/1
 
+Falto de motivation? https://claude.ai/artifact/Cy2d8Vn63CnzCtonA1LSah
+
 ## Requisitos
 Node.js 22.12 ou superior.
 
